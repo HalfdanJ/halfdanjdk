@@ -8,9 +8,11 @@ notifications:
     on_failure: always
 
 before_deploy: "cd public/; ls"
+after_deploy: "cd .."
 
 deploy:
   - provider: script
+    skip_cleanup: true
     script: "pwd; ls;"
   - provider: gcs
     access_key_id: GOOGTPVMXUC7F7GJ6R6Q
