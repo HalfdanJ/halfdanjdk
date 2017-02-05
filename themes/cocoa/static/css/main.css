@@ -503,6 +503,9 @@ section.main .container .content .post-item .meta {
   text-align: right;
   margin-right: 16px;
 }
+section.main .container .content .post-item:hover {
+  background-color: #f3f8fb;
+}
 section.main .container .content .post-item a {
   width: 100%;
   display: flex;

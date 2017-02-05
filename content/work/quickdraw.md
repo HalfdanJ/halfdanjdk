@@ -21,7 +21,7 @@ The game went at launch viral, and was for a brief moment #1 on reddit, and got 
 
 {{< youtube 01fCwygLkLA >}}
 
-Press mentions:
+### Other mentions
 
 - [Wired](https://www.wired.com/2016/11/woah-googles-ai-really-good-pictionary/)
 - [Time](http://time.com/4572598/google-ai-game-drawing/?iid=sr-link2)
@@ -31,3 +31,4 @@ Press mentions:
 - [Fast Code Design](https://www.fastcodesign.com/3065752/this-new-google-site-lets-you-play-with-its-ai-toys)
 - [The FWA](https://thefwa.com/cases/quick-draw)
 - [Hacker News](https://news.ycombinator.com/item?id=12965311)
+
