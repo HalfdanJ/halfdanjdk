@@ -7,14 +7,15 @@ notifications:
   email:
     on_failure: always
 
-before_deploy: "cd public/"
+before_deploy: "cd public/; ls"
+
 deploy:
-  provider: gcs
-  access_key_id: GOOGTPVMXUC7F7GJ6R6Q
-  skip_cleanup: true
-  secret_access_key:
-    secure: kaGTpSXAt9OJF7kFRE1ZVvFZLdIXyTkXJLojm73RnTMtfZnh3ybUeTE2F0z9NFJq4tYBaDr2aD9mFFYDugJ8TSE0oe1DXWPH9J4Z8FhAzJR3TOnIM/C4uvdZEswg9nkKb7MwZ/hKcumP44BB6ulNCzwWnjkEiMG2S5sMTHdKFCr4EfPLgPn7GavT9eCwA3/ubUCmfLaqcENqOUP0747NtHzt+Y+tSE5kIaJAWUu7PH3wSWTTrHM7g/GyEVtNoHAiI/SN+oSbI3HBKElOdBbh9/0DZk6qBaOuob9tqjAHyDYP834cf5UZQIuwxy6qVe3EBMOWGOxTkAlVzSVdCyMzlEYDOOtl3ikr+mRg3vPwzEK/Ip9PUqnupvFiJU+wub6WgdEA3444Wt8rIQDc+oPWQfF1sCkX67+/NBId1JYBcS2WY36UPSQPZGLniSjp35oe9Pe+SUOSwiwxSSNNBu253LSXU2vQEvA0YoaBySdoCaaPC49kaehB+RwibsvY+EDtoDRxLNhsBb+S26wwlF7hbkkEUJBDC7h34xLmy/VW8N260oGrVU+kV6V4gM3fQ3PbytnrU/3J7Cl1zY6xb/hkNcpjph6+KD6iQ3X6iVlfacsqNXpouNchQD4WDZ528RN2cih8TADJEU+54cfiHih8GitSLgzqDFCBTJe7sLVfAkQ=
-  bucket: new.halfdanj.dk
-  acl: public-read
-  on:
-    repo: HalfdanJ/halfdanjdk
+  - provider: script
+    script: "pwd; ls;"
+  - provider: gcs
+    access_key_id: GOOGTPVMXUC7F7GJ6R6Q
+    skip_cleanup: true
+    secret_access_key:
+      secure: kaGTpSXAt9OJF7kFRE1ZVvFZLdIXyTkXJLojm73RnTMtfZnh3ybUeTE2F0z9NFJq4tYBaDr2aD9mFFYDugJ8TSE0oe1DXWPH9J4Z8FhAzJR3TOnIM/C4uvdZEswg9nkKb7MwZ/hKcumP44BB6ulNCzwWnjkEiMG2S5sMTHdKFCr4EfPLgPn7GavT9eCwA3/ubUCmfLaqcENqOUP0747NtHzt+Y+tSE5kIaJAWUu7PH3wSWTTrHM7g/GyEVtNoHAiI/SN+oSbI3HBKElOdBbh9/0DZk6qBaOuob9tqjAHyDYP834cf5UZQIuwxy6qVe3EBMOWGOxTkAlVzSVdCyMzlEYDOOtl3ikr+mRg3vPwzEK/Ip9PUqnupvFiJU+wub6WgdEA3444Wt8rIQDc+oPWQfF1sCkX67+/NBId1JYBcS2WY36UPSQPZGLniSjp35oe9Pe+SUOSwiwxSSNNBu253LSXU2vQEvA0YoaBySdoCaaPC49kaehB+RwibsvY+EDtoDRxLNhsBb+S26wwlF7hbkkEUJBDC7h34xLmy/VW8N260oGrVU+kV6V4gM3fQ3PbytnrU/3J7Cl1zY6xb/hkNcpjph6+KD6iQ3X6iVlfacsqNXpouNchQD4WDZ528RN2cih8TADJEU+54cfiHih8GitSLgzqDFCBTJe7sLVfAkQ=
+    bucket: new.halfdanj.dk
+    acl: public-read
