@@ -1,0 +1,20 @@
+<li class="post-item">
+    <a href="{{ .Permalink }}">
+        <span class="meta">{{ .Date.Format .Site.Params.dateform }}</span>
+        <div>
+        <span class="title">{{ .Title }}</span>
+        <span class="subtitle">{{ $.Param "subtitle" }}</span>
+        </div>
+        <div class="preview">
+            {{ if $.Param "video" }}
+            <img class="videocover" src="{{ $.Param "image" }}">
+            <video class="box-bg videobg" preload="auto" poster="{{ $.Param "image" }}" loop="">
+                <source src="{{ $.Param "video" }}" type="video/mp4">
+            </video>
+            {{ else if $.Param "image"  }}
+                <img src="{{ $.Param "image" }}"/>
+            {{ end }}
+
+        </div>
+    </a>
+</li>
