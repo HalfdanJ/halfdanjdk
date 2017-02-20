@@ -7,3 +7,5 @@ image = "media/elektroniskt.jpg"
 +++
 
 {{< vimeo 4717768 >}}
+
+A small interactive installation for a one day event, allowing to take pictures with a interactive wooden frame (with infrared LEDs mounted), and then "mount" the images on a video wall. 
