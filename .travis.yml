@@ -12,6 +12,7 @@ deploy:
   skip_cleanup: true
   acl: public-read
   local_dir: public
+  verbose: true
 
 
 notifications:
