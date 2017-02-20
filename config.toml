@@ -24,7 +24,7 @@ dateform     = "Jan 2006"
 dateformfull = "Mon Jan 2 2006 15:04:05 MST"
 description  = "Don't panic"
 email        = "jonas@halfdanj.dk"
-faviconfile  = "img/leaf.ico"
+faviconfile  = "img/favicon.ico"
 github       = "//github.com/halfdanj"
 highlightjs  = true
 lang         = "en"
@@ -33,7 +33,7 @@ twitter      = "//twitter.com/halfdanj"
 selfIntro    = "Creative Technologist, currently working at Google Creative Lab in New York" # appears in the site header when set to a non-empty string
 
 # gravatar             = ""                # do not use in the same time as avatar
-avatar                 = "img/profile.jpg" # path to image in static dir e.g img/avatar.png (do not use in the same time as gravatar)
+# avatar                 = "img/profile.jpg" # path to image in static dir e.g img/avatar.png (do not use in the same time as gravatar)
 # highlightjslanguages = ["go"]            # additional languages not included in the "common" set
 
 extracssfiles = [ "/css/override.css" ] # In your `static` directory, add/remove files as necessary.

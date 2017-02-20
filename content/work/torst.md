@@ -1,6 +1,7 @@
 +++
 date = "2013-05-28T18:18:47-05:00"
-title = "torst"
+title = "Tørst"
+subtitle = "Recoil Performance Group"
 video = "media/torst.mp4"
 image = "media/torst.jpg"
 

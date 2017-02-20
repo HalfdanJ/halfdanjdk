@@ -13,5 +13,5 @@ Worked with the creative team doing opening and closing stage show for Eurovisio
 
 I was set the task to create the system for this, and made a openFrameworks app doing live 3D tracking of markers placed on the boxes, directly from the broadcast feed. The app outputted broadcast video with the virtual boxes rendered on-top. 
 
-I collaborated with [Vertigo]() on creating the hardware setup handling the live tracking and broadcast input/output. 
+I collaborated with [Vertigo](http://vertigo.dk/) on creating the hardware setup handling the live tracking and broadcast input/output. 
 

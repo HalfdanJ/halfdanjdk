@@ -7,3 +7,5 @@ date = "2015-09-28T16:03:37-05:00"
 
 +++
 {{< vimeo 106905058 >}}
+
+Created video design for the classic performance *Hedda Gabler* at the Royal Theatre of Denmark. 
