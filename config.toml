@@ -1,4 +1,4 @@
-baseurl             = "https://halfdanj.dk/"
+baseurl             = "https://halfadanjdk.appspot.com/"
 builddrafts         = true
 canonifyurls        = true
 contentdir          = "content"
