@@ -2,7 +2,7 @@
 date = "2010-04-28T18:18:25-05:00"
 title = "Friends - The One With The Asylum "
 image = "media/friends.jpg"
-
+subtitle = "Fix&Foxy"
 +++
 
 ![](media/work/friends/iby_venner_1_439480a.jpg)

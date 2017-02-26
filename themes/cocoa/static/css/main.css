@@ -512,6 +512,7 @@ section.main .container .content .post-item a {
   align-items: center;
   flex-direction: row;
   flex-wrap: nowrap;
+  color: #666;
 }
 section.main .container .content .post-item a .title {
   flex-grow: 2;

@@ -10,7 +10,7 @@ title               = "Jonas Jongejan"
 pygmentsuseclasses  = true
 #disqusshortname     = "cocoaexamplesite" # Comment out to disable Disqus.
 pluralizelisttitles = false
-#googleAnalytics     = "UA-123-45"
+googleAnalytics     = "UA-6864792-1"
 theme = "cocoa"
 
 [permalinks]
@@ -22,7 +22,7 @@ author       = "Jonas Jongejan"
 cachebuster  = true # add the current unix timestamp in query string for cache busting css assets
 dateform     = "Jan 2006"
 dateformfull = "Mon Jan 2 2006 15:04:05 MST"
-description  = "Don't panic"
+# description  = "Don't panic"
 email        = "jonas@halfdanj.dk"
 faviconfile  = "img/favicon.ico"
 github       = "//github.com/halfdanj"
@@ -37,4 +37,3 @@ selfIntro    = "Creative Technologist, currently working at Google Creative Lab 
 # highlightjslanguages = ["go"]            # additional languages not included in the "common" set
 
 extracssfiles = [ "/css/override.css" ] # In your `static` directory, add/remove files as necessary.
-
