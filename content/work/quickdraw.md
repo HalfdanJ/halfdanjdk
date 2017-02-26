@@ -25,7 +25,7 @@ The game went at launch viral, and was for a brief moment #1 on reddit, and got 
 
 - [Wired](https://www.wired.com/2016/11/woah-googles-ai-really-good-pictionary/)
 - [Time](http://time.com/4572598/google-ai-game-drawing/?iid=sr-link2)
-- [Kotaku](kotaku.com/new-google-experiment-tries-to-guess-what-your-crappy-d-1789042784)
+- [Kotaku](http://kotaku.com/new-google-experiment-tries-to-guess-what-your-crappy-d-1789042784)
 - [The Verge](http://www.theverge.com/2016/11/15/13641876/google-ai-experiments-quick-draw-image-recognition-game) 
 - [Daily Mail](http://www.dailymail.co.uk/sciencetech/article-3945998/Can-Google-guess-drawing-Free-addictive-game-uses-AI-doodles.html)
 - [Fast Code Design](https://www.fastcodesign.com/3065752/this-new-google-site-lets-you-play-with-its-ai-toys)

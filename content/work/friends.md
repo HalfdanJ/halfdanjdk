@@ -5,8 +5,8 @@ image = "media/friends.jpg"
 subtitle = "Fix&Foxy"
 +++
 
-![](media/work/friends/iby_venner_1_439480a.jpg)
-![](media/work/friends/iby_venner_2_439464a.jpg)
-![](media/work/friends/iby_venner_4_07-05-_439403a.jpg)
-![](media/work/friends/IMG_5760.jpg)
-![](media/work/friends/IMG_5818.jpg)
+![](work/friends/iby_venner_1_439480a.jpg)
+![](work/friends/iby_venner_2_439464a.jpg)
+![](work/friends/iby_venner_4_07-05-_439403a.jpg)
+![](work/friends/IMG_5760.jpg)
+![](work/friends/IMG_5818.jpg)

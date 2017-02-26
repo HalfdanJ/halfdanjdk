@@ -1,6 +1,6 @@
 +++
 date = "2014-08-29T13:39:18-05:00"
-title = "Adidas - #mizxflux"
+title = "Adidas - mizxflux"
 subtitle = "Hellicar&Lewis"
 video = "media/adidas.mp4"
 image = "media/adidas.jpg"

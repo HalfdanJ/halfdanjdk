@@ -28,7 +28,7 @@ faviconfile  = "img/favicon.ico"
 github       = "//github.com/halfdanj"
 highlightjs  = true
 lang         = "en"
-linkedin     = "//linkedin.com/in/jonas-jongejan-0b2778bb"
+linkedin     = "https://linkedin.com/in/jonas-jongejan-0b2778bb"
 twitter      = "//twitter.com/halfdanj"
 selfIntro    = "Creative Technologist, currently working at Google Creative Lab in New York" # appears in the site header when set to a non-empty string
 
