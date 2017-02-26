@@ -18,12 +18,12 @@ The performance won the [Reumert](http://www.aaretsreumert.dk/reumert-prisregn-o
 > “…captivating and exhilarating..” 
 > ✶✶✶✶✶✶ Madeleine Saunte, Kultunaut
 > 
-> “It is an incredibly successfull interactive performance” ✶✶✶✶✶ Vibeke Wern, Berlingske
+> “It is an incredibly successful interactive performance” ✶✶✶✶✶ Vibeke Wern, Berlingske
 > 
 > “Beyond the edge of physical and dance technical skill…. beyond all expectation. It is tremendous” 
 > Majbrit Hjelmsbo, Weekendavisen
 > 
-> “Tina Tarpgaards performance LIVING ROOM subjects the audience to marvelous imaginative dance in the wake of apocalyps” 
+> “Tina Tarpgaards performance LIVING ROOM subjects the audience to marvelous imaginative dance in the wake of apocalypse” 
 > Anne Middelboe Christensen, Information
 > 
 

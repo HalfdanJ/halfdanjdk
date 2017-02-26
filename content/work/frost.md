@@ -8,7 +8,7 @@ subtitle = "Recoil Performance Group"
 
 {{< vimeo 35794733 >}}
 
-Dance performance made together with Danish Dance Theatre, Tina Tarpgaard (choreographer), and Ole Kristensen. All the software that generated the scenography with one projector, was created by me and Ole over 1 month usin openFrameworks.
+Dance performance made together with Danish Dance Theatre, Tina Tarpgaard (choreographer), and Ole Kristensen. All the software that generated the scenography with one projector, was created by me and Ole over 1 month using openFrameworks.
 
 The show won in 2010 a Reumert for best dance performance, and has been shown several times in Copenhagen, and has been on tour to Amman (Jordan), Düsseldorf (Germany) and Århus (Denmark)
 

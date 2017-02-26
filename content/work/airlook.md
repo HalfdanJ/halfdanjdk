@@ -11,9 +11,11 @@ Worked over a long period from 2013 on a large project at the [Danish Broadcast 
 
 The task was to come up with a system where the advanced ideas the DR Design department had for the new designs on the 6 TV channels could work in an automated broadcast world. It turned out that no broadcast systems could handle it, so we had to create it from bottom up. 
 
-Together with Johan Bichel and Martin Bollerup, we created a new system using our own render farm of After Effects that automatically rendered out all the video clips. 
+Together with [Johan Bichel](johan.cc) and Martin Bollerup, we created a new system using our own render farm of After Effects that automatically rendered out all the video clips. 
 
-Here are a couple of the airlooks we implemented. DR Ramasjang (for small children)
+Here are a couple of the airlooks we implemented. 
+
+DR Ramasjang (for small children)
 
 {{< vimeo 90229333 >}}
 

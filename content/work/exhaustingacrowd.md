@@ -16,4 +16,4 @@ Press: [hyperallergic.com](http://hyperallergic.com/211950/an-addictive-experime
 
 Awarded with the [Ars Electronica Honorary Mention](http://www.aec.at/radicalatoms/en/exhaustingacrowd/)
 
-Source code: [github](https://github.com/kylemcdonald/ExhaustingACrowd)
+Source code: [Github](https://github.com/kylemcdonald/ExhaustingACrowd)
