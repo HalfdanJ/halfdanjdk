@@ -30,7 +30,7 @@ highlightjs  = true
 lang         = "en"
 linkedin     = "https://linkedin.com/in/jonas-jongejan-0b2778bb"
 twitter      = "//twitter.com/halfdanj"
-selfIntro    = "Creative Technologist, currently working at Google Creative Lab in New York" # appears in the site header when set to a non-empty string
+selfIntro    = "Creative Technologist, currently working at Google Creative Lab in New York" 
 
 # gravatar             = ""                # do not use in the same time as avatar
 # avatar                 = "img/profile.jpg" # path to image in static dir e.g img/avatar.png (do not use in the same time as gravatar)

@@ -17,13 +17,6 @@
             {{ if .Site.Params.selfIntro }}
               <h3 class="self-intro">{{ .Site.Params.selfIntro }}</h3>
             {{ end }}
-            <nav>
-                <ul>
-                    <a href="/work/"><li>Work</li></a>
-                    <!--<a href="/about/"><li>About</li></a>-->
-                    <a href="/code/"><li>Code</li></a>
-                </ul>
-            </nav>
         </div>
     </div>
 </section>
@@ -31,7 +24,7 @@
 <section class="icons">
     <div class="container">
         <div class="content">
-
+        
         {{ if .Site.Params.github }}
             <a href="{{ .Site.Params.github }}" target="_blank"><img class="icon" src="/img/github.svg" alt="github" /></a>
         {{ end }}
@@ -59,6 +52,21 @@
         {{ if .Site.RSSLink }}
             <a href="{{ .Site.RSSLink }}"><img class="icon" src="/img/rss.svg" alt="rss" /></a>
         {{ end }}
+        </div>
+    </div>
+</section>
+
+
+<section class="nav">
+    <div class="container">
+        <div class="content">
+            <nav>
+                <ul>
+                    <a href="/work/" {{if eq .Title  "Work"}}class="active"{{end}} ><li>Work</li></a>
+                    <!--<a href="/about/"><li>About</li></a>-->
+                    <a href="/code/" {{if eq .Title  "Code"}}class="active"{{end}}><li>Code</li></a>
+                </ul>
+            </nav>
         </div>
     </div>
 </section>
