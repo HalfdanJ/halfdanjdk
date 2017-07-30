@@ -8,6 +8,8 @@ deploy:
   project: halfadanjdk
   default: true
   skip_cleanup: true
+  on:
+    branch: master
 notifications:
   email:
     on_failure: always

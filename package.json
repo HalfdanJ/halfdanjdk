@@ -1,6 +1,6 @@
 {
   "dependencies": {
-    "broken-link-checker": "^0.7.4"
+    "broken-link-checker": "^0.7.6"
   },
   "scripts": {
     "server": "hugo server",
