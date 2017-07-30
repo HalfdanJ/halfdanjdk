@@ -5,7 +5,7 @@ script:
 deploy:
   provider: gae
   keyfile: halfdanjdk-3bbf6a628ba9.json
-  project: halfadanjdk
+  project: halfdanjdk
   default: true
   skip_cleanup: true
   on:
