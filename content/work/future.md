@@ -7,7 +7,7 @@ image = "media/fremtiden.jpg"
 
 +++
 
-Theatre production by [Flyvende Grise](http://www.flyvendegrise.dk/) using two large Kuka industrials robots on stage. I was asked to be in charge of robot programming, and went to Sweden to get a Kuka Robot Certificate. 
+Theatre production by [Flyvende Grise](https://vimeo.com/flyvendegrise) using two large Kuka industrials robots on stage. I was asked to be in charge of robot programming, and went to Sweden to get a Kuka Robot Certificate. 
 
 ![](work/fremtiden/fremtiden_3_foto-bjarne-stehr.jpg)
 Photo by Bjarne Stehr
