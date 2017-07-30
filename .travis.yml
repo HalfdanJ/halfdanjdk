@@ -4,14 +4,13 @@ script:
 - hugo
 deploy:
   provider: gae
-  keyfile: service.json
+  keyfile: halfdanjdk-3bbf6a628ba9.json
   project: halfadanjdk
   default: true
   skip_cleanup: true
-
 notifications:
   email:
     on_failure: always
 before_install:
 - openssl aes-256-cbc -K $encrypted_2c1700b95230_key -iv $encrypted_2c1700b95230_iv
-  -in service.json.enc -out service.json -d
+  -in halfdanjdk-3bbf6a628ba9.json.enc -out halfdanjdk-3bbf6a628ba9.json -d
