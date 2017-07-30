@@ -7,6 +7,7 @@
     "server": "hugo server",
     "build": "hugo",
     "check-links": "blc http://localhost:1313 -ro --exclude linkedin.com",
+    "check-links-online": "blc http://halfdanj.dk -ro --exclude linkedin.com",
     "less": "cd themes/cocoa/dev/;  make css",
     "watch-less": "watch-lessc --directory themes/cocoa/dev/less/ --input themes/cocoa/dev/less/main.less --output themes/cocoa/static/css/main.css"
   }

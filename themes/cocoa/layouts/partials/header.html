@@ -62,7 +62,7 @@
         <div class="content">
             <nav>
                 <ul>
-                    <a href="/work/" {{if eq .Title  "Work"}}class="active"{{end}} ><li>Work</li></a>
+                    <a href="/work/" {{if (eq .Title  "Work") | or (eq .Title "Jonas Jongejan") }}class="active"{{end}} ><li>Work</li></a>
                     <!--<a href="/about/"><li>About</li></a>-->
                     <a href="/code/" {{if eq .Title  "Code"}}class="active"{{end}}><li>Code</li></a>
                 </ul>
