@@ -1,4 +1,4 @@
-baseurl             = "https://halfdanj.dk/"
+baseurl             = "http://halfdanj.dk/"
 builddrafts         = true
 canonifyurls        = true
 contentdir          = "content"
