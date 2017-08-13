@@ -8,9 +8,9 @@ video = "media/lightleaks.mp4"
 
 {{< vimeo 66167082 >}}
 
-A scattered array of fifty mirror balls reflect light from three projectors, filling a room completely with small reflections, casting patterns that fill the visitor’s peripheral vision. Creating a curious space that alternates between a meditative state, and an uneasy imbalance. An experiment in combining a found object with computer vision to create a profound and unusual experience. Installation created in collaboration with [Kyle McDonald](http://kylemcdonald.net/) for [Click Festival 2013](http://clickfestival.dk/)
+A scattered array of fifty mirror balls reflect light from three projectors, filling a room completely with small reflections, casting patterns that fill the visitor’s peripheral vision. This creates a curious space that alternates between a meditative state, and an uneasy imbalance. It's an experiment in combining a found object with computer vision to create a profound and unusual experience. This installation was created in collaboration with [Kyle McDonald](http://kylemcdonald.net/) for [Click Festival 2013](http://clickfestival.dk/)
 
-Installation has been shown at [La Gaîté Lyrique](https://gaite-lyrique.net/en/capitaine-futur-and-the-extraordinary-journey) (Paris, 2014) and [Scopitone Festival](http://www.stereolux.org/scopitone-2016) (Nantes, 2015)
+This installation has been shown at [La Gaîté Lyrique](https://gaite-lyrique.net/en/capitaine-futur-and-the-extraordinary-journey) (Paris, 2014) and [Scopitone Festival](http://www.stereolux.org/scopitone-2016) (Nantes, 2015).
 
 Press mentions: [Creative Applications](http://www.creativeapplications.net/environment/light-leaks-filling-a-room-with-projected-light/), 
 Holo 1 Magazine, 

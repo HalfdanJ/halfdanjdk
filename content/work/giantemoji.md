@@ -12,7 +12,7 @@ subtitle = "Google Creative Lab"
 
 A small [open-source openFrameworks app](https://github.com/googlecreativelab/giantemoji) for Android developed for the Android Experiments booth at [Google I/O 2016](https://events.google.com/io2016/). The installation consisted of a Pixel C tablet running the openFrameworks app doing face landmark tracking 
 using [ofxFacetracker2](https://github.com/HalfdanJ/ofxFaceTracker2) that I developed for this installation. 
-We then trained a simple SVM model to classify the face landmarks into different types of emojis, and that data was transmitted to a web app rendering live a giant emoji copying your face.
+We then trained a simple SVM model to classify the face landmarks into different types of emojis, and that data was transmitted to a web app whick rendered live a giant emoji copying a facial expression.
 
-The project was developed in collaboration with [Stewart Smith](http://stewartsmith.io/) who did the rendering of the emoji.
+The project was developed in collaboration with [Stewart Smith](http://stewartsmith.io/) who did the rendering of the emojis.
 

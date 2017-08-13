@@ -11,11 +11,11 @@ subtitle = "Google Creative Lab"
 
 [Quick, Draw!](https://quickdraw.withgoogle.com) is a game released as one of the [A.I Experiments](https://aiexperiments.withgoogle.com) launched by Google Creative Lab. 
 
-I came up with the idea for the game during an internal hackathon, and with huge help from collegues at Google handwriting recognition team, we were able to launch it to the public using the same algorithms that powering the handwriting recognition on [Google Translate](https://translate.google.com/) and many other products. We trained a custom classifier for the game, using data we collected, and by playing the game, players have improved the classifier.
+I came up with the idea for the game during an internal hackathon, and with huge help from collegues at Google's handwriting recognition team, we were able to launch it to the public using the same algorithms that power the handwriting recognition on [Google Translate](https://translate.google.com/) and many other products. We trained a custom classifier for the game, using data we collected, and by playing the game, players have improved the classifier.
 
-The hope with the game was to give people a game that allows them to interact with machine learning in a fun and delightfull way.
+The hope was to give people a game that allowed them to interact with machine learning in a fun and delightfull way.
 
-The game went at launch viral, and was for a brief moment #1 on reddit, and got on Fox News...
+The game went viral at launch, and was for a brief moment #1 on reddit, and even got on Fox News...
 
 {{< youtube ZOXKLz4UfRY >}}
 
@@ -23,7 +23,7 @@ The game went at launch viral, and was for a brief moment #1 on reddit, and got 
 
 {{< youtube 01fCwygLkLA >}}
 
-**Update:** We have now released a large dataset containing 50 million drawings. Read more in [this post](/work/quick-draw-dataset) 
+**Update:** We have now released a large dataset containing 50 million drawings. Read more in [this post](/work/quick-draw-dataset).
 
 ### Other mentions
 

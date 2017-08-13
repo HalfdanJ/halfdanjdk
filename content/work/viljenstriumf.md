@@ -13,9 +13,9 @@ subtitle = "Fix&Foxy"
 
 
 
-In ”Triumph of the Will” we attempted to recreate one of the greatest yet most problematic masterpieces of cinematic history: Leni Riefenstahl's nazi propaganda film Triumph of the Will. As a gifted, avantgarde woman Riefenstahl happened to ruin art's relationship with beauty. With her poetically filmed and brilliantly edited movie she turned art's relationship with optimism and community rotten.
+In ”Triumph of the Will” we attempted to recreate one of the greatest yet most problematic masterpieces of cinematic history: Leni Riefenstahl's Nazi propaganda film Triumph of the Will. As a gifted, avantgarde woman Riefenstahl happened to ruin art's relationship with beauty. With her poetically filmed and brilliantly edited movie she turned art's relationship with optimism and community rotten.
 
-With large amounts of models and planned shoots, we recreated the film scene by scene, using the audience as props, and letting them live watch the movie on the big screen. 
+With large amounts of models and planned shoots, we recreated the film scene by scene, using the audience as props, and letting them watch the movie live on the big screen. 
 
 ![](work/viljenstriumf/1.jpg)
 ![](work/viljenstriumf/2.jpg)

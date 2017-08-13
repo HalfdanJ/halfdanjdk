@@ -8,4 +8,4 @@ subtitle = "Holmen Event"
 
 {{< vimeo 4717768 >}}
 
-A small interactive installation for a one day event, allowing to take pictures with an interactive wooden frame (with infrared LEDs mounted), and then "mount" the images on a video wall. 
+A small interactive installation for a one-day event, allowing us to take pictures with an interactive wooden frame (with mounted infrared LEDs), and then "mount" the images on a video wall. 
