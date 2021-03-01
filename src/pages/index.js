@@ -304,11 +304,6 @@ const IndexPage = ({ data }) => {
               Corporation innovating on new ways of making graphics for the tv.
             </a>
           </p>
-          <p>
-            Want to reach me? <a href="https://twitter.com/halfdanj">twitter</a>{" "}
-            | <a href="mailto:jonas@halfdanj.dk">email</a> |{" "}
-            <a href="www.linkedin.com/in/halfdanj">linkedin</a>
-          </p>
         </IntroSection>
       </Section>
 
