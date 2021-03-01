@@ -10,6 +10,7 @@ const Vimeo = ({ videoId, videoTitle, ...props }) => (
     }}
   >
     <iframe
+      title="video"
       src={`https://player.vimeo.com/video/${videoId}`}
       style={{
         width: "100%",

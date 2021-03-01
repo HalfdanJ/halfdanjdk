@@ -9,12 +9,11 @@ const Row = styled.a`
   display: flex;
   color: black;
   text-decoration: none;
-  align-items: center;
   margin-bottom: 16px;
 
-  > div {
+  /* > div {
     margin-right: 16px;
-  }
+  } */
 
   &:hover {
     background: #fbfbfb;
@@ -23,12 +22,28 @@ const Row = styled.a`
 
 const Preview = styled.div`
   overflow: hidden;
-  border-radius: 4px;
+  /* border-radius: 4px; */
+  height: 180px;
+  width: 180px;
+  flex-shrink: 0;
+
+  @media (max-width: 580px) {
+    height: 100px;
+    width: 100px;
+  }
 `;
 
 const ProjectDate = styled.div`
-  margin-left: 16px;
-  color: #464646;
+  margin-left: 32px;
+  margin-right: 16px;
+  /* color: #464646; */
+  flex-shrink: 0;
+  font-weight: 300;
+  font-size: 0.8em;
+
+  @media (max-width: 580px) {
+    margin-left: 0px;
+  }
 `;
 
 const ProjectTitle = styled.span`
@@ -52,6 +67,19 @@ const IntroSection = styled.div`
   }
   a:hover {
     color: #4e4e4e;
+  }
+`;
+
+const ProjectDetails = styled.div`
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+
+  @media (max-width: 580px) {
+    align-items: flex-start;
+    flex-direction: column;
+    margin-left: 16px;
+    justify-content: center;
   }
 `;
 
@@ -90,37 +118,48 @@ const IndexPage = ({ data }) => {
         href={`${edge.node.slug}`}
       >
         <Preview>
-          <HoverVideoPlayer
-            style={{ width: "180px", height: "180px" }}
-            restartOnPaused
-            hoverTargetRef={rowRefs[edge.node.slug]}
-            pausedOverlay={
-              <img
-                srcSet={
-                  getPreviewImage(edge.node.fields.name, data.allFile.edges)
-                    ?.node.childImageSharp.fixed.srcSet
-                }
-                alt=""
-                style={{
-                  width: "100%",
-                  height: "100%",
-                }}
-              />
-            }
-            videoSrc={
-              getPreviewVideo(edge.node.fields.name, data.allFile.edges)?.node
-                .publicURL
-            }
-          />
+          {getPreviewVideo(edge.node.fields.name, data.allFile.edges)?.node
+            .publicURL ? (
+            <HoverVideoPlayer
+              style={{ width: "100%", height: "100%" }}
+              restartOnPaused
+              hoverTargetRef={rowRefs[edge.node.slug]}
+              pausedOverlay={
+                <img
+                  style={{ width: "100%", height: "100%" }}
+                  srcSet={
+                    getPreviewImage(edge.node.fields.name, data.allFile.edges)
+                      ?.node.childImageSharp.fixed.srcSet
+                  }
+                  alt=""
+                />
+              }
+              videoSrc={
+                getPreviewVideo(edge.node.fields.name, data.allFile.edges)?.node
+                  .publicURL
+              }
+            />
+          ) : (
+            <img
+              style={{ width: "100%", height: "100%" }}
+              srcSet={
+                getPreviewImage(edge.node.fields.name, data.allFile.edges)?.node
+                  .childImageSharp.fixed.srcSet
+              }
+              alt=""
+            />
+          )}
         </Preview>
 
-        <ProjectDate>{edge.node.exports.metadata.date}</ProjectDate>
+        <ProjectDetails>
+          <ProjectDate>{edge.node.exports.metadata.date}</ProjectDate>
 
-        <div>
-          <ProjectTitle>{edge.node.exports.metadata.title}</ProjectTitle>
+          <div>
+            <ProjectTitle>{edge.node.exports.metadata.title}</ProjectTitle>
 
-          <ProjectClient>{edge.node.exports.metadata.client}</ProjectClient>
-        </div>
+            <ProjectClient>{edge.node.exports.metadata.client}</ProjectClient>
+          </div>
+        </ProjectDetails>
       </Row>
     ));
   };
@@ -151,6 +190,11 @@ const IndexPage = ({ data }) => {
               Lastly, I worked for a few years for the Danish Broadcasting
               Corporation innovating on new ways of making graphics for the tv.
             </a>
+          </p>
+          <p>
+            Want to reach me? <a href="https://twitter.com/halfdanj">twitter</a>{" "}
+            | <a href="mailto:jonas@halfdanj.dk">email</a> |{" "}
+            <a href="www.linkedin.com/in/halfdanj">linkedin</a>
           </p>
         </IntroSection>
       </Section>

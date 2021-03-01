@@ -29,7 +29,10 @@ export default function Post(props) {
       <Section>
         <h1>JONAS JONGEJAN</h1>
         <BackBtn href="/">
-          <span role="img">👈</span> Back to all work
+          <span role="img" aria-label="back icon">
+            👈
+          </span>{" "}
+          Back to all work
         </BackBtn>
       </Section>
       <Section style={{ marginTop: "32px" }}>

@@ -32,7 +32,15 @@ resource "google_service_account" "github_actions" {
 }
 
 
-resource "google_project_iam_member" "loadbalancer-admin-iam" {
+resource "google_project_iam_member" "appengineiam" {
   role   = "roles/appengine.appAdmin"
+  member = "serviceAccount:${google_service_account.github_actions.email}"
+}
+resource "google_project_iam_member" "storageiam" {
+  role   = "roles/compute.storageAdmin"
+  member = "serviceAccount:${google_service_account.github_actions.email}"
+}
+resource "google_project_iam_member" "cloudbuildiam" {
+  role   = "roles/cloudbuild.builds.editor"
   member = "serviceAccount:${google_service_account.github_actions.email}"
 }
