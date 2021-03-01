@@ -15,57 +15,16 @@ jobs:
         with:
           node-version: 12
 
-      # - name: Install dependencies
-      #   uses: cypress-io/github-action@v2
-      #   with:
-      #     runTests: false
-      # cache-key: node${{ matrix.node }}-on-${{ runner.os }}-v2-hash-${{ hashFiles('yarn.lock') }}
-      # - name: Lint
-      #   run: yarn lint
-      # - name: Type check
-      #   run: yarn type-check
       - name: Install dependencies
         run: yarn install --frozen-lockfile
       - name: Build the app
         run: yarn build
-      # - name: Run Cypress tests
-      #   uses: cypress-io/github-action@v2
-      #   with:
-      #     install: false
-      #     start: yarn serve
-      #     wait-on: "http://localhost:8000"
 
-      - name: Push to bucket
+      - name: Deploy
         uses: actions-hub/gcloud@master
         env:
           PROJECT_ID: halfdanjdk
           APPLICATION_CREDENTIALS: ${{ secrets.GOOGLE_APPLICATION_CREDENTIALS }}
-          CLI: gsutil
+          CLI: gcloud
         with:
-          args: -m cp -z html,css,js,json,txt,xml,svg -r ./public/* gs://hosting-halfdanjdk/
-
-      - name: Set cache control on HTML files
-        uses: actions-hub/gcloud@master
-        env:
-          PROJECT_ID: halfdanjdk
-          APPLICATION_CREDENTIALS: ${{ secrets.GOOGLE_APPLICATION_CREDENTIALS }}
-          CLI: gsutil
-        with:
-          args: "-m setmeta -h 'Cache-Control: public, max-age=86400' 'gs://hosting-halfdanjdk/**/*.html' 'gs://hosting-halfdanjdk/**/*.json'"
-      - name: Set cache control on assets
-        uses: actions-hub/gcloud@master
-        env:
-          PROJECT_ID: halfdanjdk
-          APPLICATION_CREDENTIALS: ${{ secrets.GOOGLE_APPLICATION_CREDENTIALS }}
-          CLI: gsutil
-        with:
-          args: "-m setmeta -h 'Cache-Control: public, max-age=31536000' 'gs://hosting-halfdanjdk/**/*.js' 'gs://hosting-halfdanjdk/**/*.svg' 'gs://hosting-halfdanjdk/**/*.png'"
-
-      - name: Invalidate cache
-        uses: actions-hub/gcloud@master
-        if: success()
-        env:
-          PROJECT_ID: halfdanjdk
-          APPLICATION_CREDENTIALS: ${{ secrets.GOOGLE_APPLICATION_CREDENTIALS }}
-        with:
-          args: "compute url-maps invalidate-cdn-cache hosting --path='/*'"
+          args: app deploy

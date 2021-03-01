@@ -1,0 +1,43 @@
+runtime: python37
+service: new
+handlers:
+  - url: /
+    static_files: public/index.html
+    upload: public/index.html
+  # - url: /(.*)
+  #   static_files: public/\1
+  #   upload: public/(.*)
+
+  - url: /(.*\.css)
+    mime_type: text/css
+    static_files: public/\1
+    upload: public/(.*\.css)
+
+  - url: /(.*\.js)
+    static_files: public/\1
+    upload: public/(.*\.js)
+
+  - url: /(.*\.jpg)
+    static_files: public/\1
+    upload: public/(.*\.jpg)
+  - url: /(.*\.png)
+    static_files: public/\1
+    upload: public/(.*\.png)
+  - url: /(.*\.mp4)
+    static_files: public/\1
+    upload: public/(.*\.mp4)
+  - url: /(.*\.ico)
+    static_files: public/\1
+    upload: public/(.*\.ico)
+  - url: /(.*\.json)
+    static_files: public/\1
+    upload: public/(.*\.json)
+
+  # index files
+  - url: /(.+)/
+    static_files: public/\1/index.html
+    upload: public/(.+)/index.html
+
+  - url: /(.+)
+    static_files: public/\1/index.html
+    upload: public/(.+)/index.html
