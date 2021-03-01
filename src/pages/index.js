@@ -170,7 +170,7 @@ const IndexPage = ({ data }) => {
         <IntroSection>
           <title>JONAS JONGEJAN</title>
           {/* <h1>JONAS JONGEJAN</h1> */}
-          <p>
+          <p style={{ textAlign: "center" }}>
             <svg
               width="290"
               height="113"
