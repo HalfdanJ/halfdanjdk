@@ -1,0 +1,7 @@
+{
+  "editor.formatOnSave": true,
+  "cSpell.enableFiletypes": [
+    "mdx"
+  ],
+  "cSpell.enabled": true
+}
