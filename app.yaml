@@ -1,5 +1,4 @@
 runtime: python37
-service: new
 handlers:
   - url: /
     static_files: public/index.html
