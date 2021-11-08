@@ -19,6 +19,9 @@ handlers:
   - url: /(.*\.jpg)
     static_files: public/\1
     upload: public/(.*\.jpg)
+  - url: /(.*\.gif)
+    static_files: public/\1
+    upload: public/(.*\.gif)
   - url: /(.*\.png)
     static_files: public/\1
     upload: public/(.*\.png)
