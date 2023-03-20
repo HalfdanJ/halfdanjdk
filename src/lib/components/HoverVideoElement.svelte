@@ -24,11 +24,11 @@
 	}
 </script>
 
-<div on:mouseenter={hover} on:mouseleave={stop} class="relative sm:w-48 sm:h-48">
+<div on:mouseenter={hover} on:mouseleave={stop} class="relative xs:w-48 xs:h-48">
 	<video bind:this={video} src={videoSrc} muted loop playsinline paused={!hover} />
 	<img
 		style:opacity={hovering ? 0 : 100}
-		class="object-cover absolute top-0 transition-all sm:w-48 sm:h-48"
+		class="object-cover absolute top-0 transition-all xs:w-48 xs:h-48"
 		alt={'preview'}
 		src={imageSrc}
 		loading="lazy"

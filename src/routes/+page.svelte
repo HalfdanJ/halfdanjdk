@@ -2,6 +2,7 @@
 	import type { PageData } from './$types';
 	import HoverVideoElement from '$lib/components/HoverVideoElement.svelte';
 	import parseISO from 'date-fns/parseISO/index.js';
+	import { xsBreakpoint } from '$lib/responsive';
 
 	export let data: PageData;
 
@@ -41,13 +42,13 @@
 				<div
 					class="rounded-lg overflow-clip relative shadow transition-all group-hover:shadow-lg group-hover:-translate-y-0.5"
 				>
-					{#if post.previewVideo}
+					{#if post.previewVideo && $xsBreakpoint}
 						<HoverVideoElement videoSrc={post.previewVideo} imageSrc={post.previewImg} />
 					{:else}
 						<img
 							src={post.previewImg}
 							alt={post.title}
-							class="w-full sm:h-48 sm:w-48"
+							class="w-full xs:h-48 xs:w-48"
 							loading="lazy"
 						/>
 					{/if}
