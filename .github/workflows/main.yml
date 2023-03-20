@@ -27,4 +27,4 @@ jobs:
           APPLICATION_CREDENTIALS: ${{ secrets.GOOGLE_APPLICATION_CREDENTIALS }}
           CLI: gcloud
         with:
-          args: npm run deploy
+          args: app deploy --project halfdanjdk --promote build/app.yaml
