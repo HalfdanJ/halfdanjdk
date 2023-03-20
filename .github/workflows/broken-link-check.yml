@@ -7,11 +7,21 @@ on:
   workflow_dispatch:
 
 jobs:
-  check:
-    name: Broken Link Check
+  linkChecker:
     runs-on: ubuntu-latest
     steps:
-      - name: Broken Link Check
-        uses: technote-space/broken-link-checker-action@v2
+      - name: Link Checker
+        id: lychee
+        uses: lycheeverse/lychee-action@v1.6.1
+        with:
+          args: https://halfdanj.dk
         env:
-          TARGET: https://halfdanj.dk
+          GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN}}
+
+      # - name: Create Issue From File
+      #   if: env.lychee_exit_code != 0
+      #   uses: peter-evans/create-issue-from-file@v4
+      #   with:
+      #     title: Link Checker Report
+      #     content-filepath: ./lychee/out.md
+      #     labels: report, automated issue
