@@ -6,7 +6,7 @@
 ---
 
 <script context="module">
-  import _previewImg from './friends.jpg'
+  import _previewImg from './friends.jpg?w=500&h=500&webp'
   import img1 from './iby_venner_1_439480a.jpg'
   import img2 from './iby_venner_2_439464a.jpg'
   import img3 from './iby_venner_4_07-05-_439403a.jpg'

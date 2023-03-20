@@ -7,7 +7,7 @@ category: "installations"
 
 <script context="module">
     import Vimeo from '$lib/components/Vimeo.svelte'
-    import _previewImg from './exhaustingacrowd.jpg'
+    import _previewImg from './exhaustingacrowd.jpg?w=500&h=500&webp'
     import _previewVideo from './exhaustingacrowd.mp4'
 
     metadata.previewImg = _previewImg

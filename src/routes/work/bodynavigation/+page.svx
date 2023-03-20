@@ -7,7 +7,7 @@ category: "theatre"
 
 <script context="module">
     import Vimeo from '$lib/components/Vimeo.svelte'
-    import _previewImg from './bodynavigation.jpg'
+    import _previewImg from './bodynavigation.jpg?w=500&h=500&webp'
     import _previewVideo from './bodynavigation.mp4'
 
     metadata.previewImg = _previewImg

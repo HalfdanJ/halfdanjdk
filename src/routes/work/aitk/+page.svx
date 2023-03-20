@@ -8,7 +8,7 @@ category: "cl"
 <script context="module">
     //import Vimeo from '$lib/components/Vimeo.svelte'
     import image from './blog.webp'
-    import _previewImg from './aitk.jpg'
+    import _previewImg from './aitk.jpg?w=500&h=500&webp'
     
 
     metadata.previewImg = _previewImg    

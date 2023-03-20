@@ -6,7 +6,7 @@ category: "cl"
 ---
 
 <script context="module">
-    import _previewImg from './mobility.jpg'
+    import _previewImg from './mobility.jpg?w=500&h=500&webp'
     import img from './mobility_large.png'
     metadata.previewImg = _previewImg    
 </script>

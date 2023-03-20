@@ -7,7 +7,7 @@ category: "broadcast"
 
 <script context="module">
     import YouTube from '$lib/components/YouTube.svelte'
-    import _previewImg from './esc.png'
+    import _previewImg from './esc.png?w=500&h=500&webp'
     import _previewVideo from './esc.mp4'
 
     metadata.previewImg = _previewImg
