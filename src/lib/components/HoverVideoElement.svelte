@@ -1,6 +1,5 @@
 <script lang="ts">
 	import { inview } from 'svelte-inview';
-	import type { ObserverEventDetails } from 'svelte-inview';
 	import { xsBreakpoint } from '$lib/responsive';
 
 	export let videoSrc: string;
@@ -34,7 +33,15 @@
 	on:inview_enter={() => !$xsBreakpoint && start()}
 	on:inview_leave={() => !$xsBreakpoint && stop()}
 >
-	<video bind:this={video} src={videoSrc} muted loop playsinline paused={!start} />
+	<video
+		bind:this={video}
+		src={videoSrc}
+		muted
+		loop
+		playsinline
+		paused={!start}
+		poster={imageSrc}
+	/>
 	<img
 		style:opacity={hovering ? 0 : 100}
 		class="object-cover absolute top-0 transition-all xs:w-48 xs:h-48"
