@@ -1,5 +1,7 @@
 <script lang="ts">
-	import vi from 'date-fns/locale/vi';
+	import { inview } from 'svelte-inview';
+	import type { ObserverEventDetails } from 'svelte-inview';
+	import { xsBreakpoint } from '$lib/responsive';
 
 	export let videoSrc: string;
 	export let imageSrc: string;
@@ -9,7 +11,7 @@
 
 	let transitionDuration = 100;
 
-	function hover() {
+	function start() {
 		hovering = true;
 		video?.play();
 	}
@@ -24,8 +26,15 @@
 	}
 </script>
 
-<div on:mouseenter={hover} on:mouseleave={stop} class="relative xs:w-48 xs:h-48">
-	<video bind:this={video} src={videoSrc} muted loop playsinline paused={!hover} />
+<div
+	class="relative xs:w-48 xs:h-48"
+	on:mouseenter={() => $xsBreakpoint && start()}
+	on:mouseleave={() => $xsBreakpoint && stop()}
+	use:inview={{ rootMargin: '-45%' }}
+	on:inview_enter={() => !$xsBreakpoint && start()}
+	on:inview_leave={() => !$xsBreakpoint && stop()}
+>
+	<video bind:this={video} src={videoSrc} muted loop playsinline paused={!start} />
 	<img
 		style:opacity={hovering ? 0 : 100}
 		class="object-cover absolute top-0 transition-all xs:w-48 xs:h-48"
