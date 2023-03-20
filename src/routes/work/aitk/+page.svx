@@ -1,0 +1,25 @@
+---
+title: "AI Test Kitchen"
+client: "Google Creative Lab / Google Labs"
+date: "2022-05-28T18:18:56-05:00"
+category: "cl"
+---
+
+<script context="module">
+    //import Vimeo from '$lib/components/Vimeo.svelte'
+    import image from './blog.webp'
+    import _previewImg from './aitk.jpg'
+    
+
+    metadata.previewImg = _previewImg    
+</script>
+
+Technical lead on the initial development of the AI Test Kitchen, a project that gave first glimpse into the capabilities of Google's Large Language Model (LaMDA). 
+
+The project was a collaboration between Google Creative Lab, Google Research, and Google AI, announced at Google I/O 2022. 
+
+Behind the 3 demos that were in the first launch, were dozens and dozens of experiments, prototypes, and ideas done by a large cross functional team.
+
+[Read More](https://blog.google/technology/ai/join-us-in-the-ai-test-kitchen/)
+
+<img src={image}>

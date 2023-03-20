@@ -1,0 +1,23 @@
+---
+  date: "2016-10-11"
+  title: "Sprayscape"
+  client: "Google Creative Lab"
+  category: "cl"
+---
+
+<script context="module">
+  import YouTube from '$lib/components/YouTube.svelte'
+  import _previewImg from './sprayscape.jpg'
+  import _previewVideo from './sprayscape.mp4'
+
+  metadata.previewImg = _previewImg
+  metadata.previewVideo = _previewVideo
+</script>
+
+<YouTube videoId="6o3_m4-YH9U" />
+
+An experimental [Android app](https://sprayscape.com/) released under [Android Experiment](https://www.androidexperiments.com/experiment/sprayscape) by Google Creative Lab.
+
+> A perfectly imperfect VR-ish camera for capturing faces, places, and spaces.
+
+I helped out in the final phase, making the app ready for launch, and making the code ready for open-sourcing on [github](https://github.com/googlecreativelab/sprayscape)

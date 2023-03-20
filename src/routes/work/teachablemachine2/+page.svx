@@ -1,0 +1,22 @@
+---
+title: "Teachable Machine 2.0"
+client: "Google Creative Lab"
+date: "2019-11-07"
+category: "cl"
+---
+
+<script context="module">
+  import YouTube from '$lib/components/YouTube.svelte'
+  import _previewImg from './teachablemachine2.png'
+  import _previewVideo from './teachablemachine2.mp4'
+
+  metadata.previewImg = _previewImg
+  metadata.previewVideo = _previewVideo
+</script>
+
+
+<YouTube videoId="T2qQGqZxkD0" opts={{ width: "750" }} />
+
+Teachable Machine 2.0 is an updated version of [the original Teachable Machine](/work/teachablemachine). Its a website that allows anyone to easily and quickly train a classification model right in the browser using TensorFlow.js. The site allows both training image, audio and pose models, and allows you to export the models to various formats, enabling quick prototyping with machine learning.
+
+The project has been awarded with a Webby award for technical achievement.

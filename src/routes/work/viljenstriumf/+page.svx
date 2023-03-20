@@ -1,0 +1,42 @@
+---
+date: "2012-11-29"
+title: "Triumph of the Will"
+client: "Fix&Foxy"
+category: "theatre"
+---
+
+<script context="module">
+  import Vimeo from '$lib/components/Vimeo.svelte'
+  import _previewImg from './viljenstriumf.jpg'
+  
+  metadata.previewImg = _previewImg
+
+    import img1 from './1.jpg'
+    import img2 from './2.jpg'
+    import img3 from './3.jpg'
+    import img4 from './4.jpg'
+    import img5 from './5.jpg'
+    import img6 from './6.jpg'
+    import img7 from './7.jpg'
+    import img8 from './8.jpg'
+</script>
+
+
+<Vimeo videoId="91702340" />
+
+_”Art and politics are separate entities and what I did was in the world of art.”_
+
+_Leni Riefenstahl_
+
+In ”Triumph of the Will” we attempted to recreate one of the greatest yet most problematic masterpieces of cinematic history: Leni Riefenstahl's Nazi propaganda film Triumph of the Will. As a gifted, avantgarde woman Riefenstahl happened to ruin art's relationship with beauty. With her poetically filmed and brilliantly edited movie she turned art's relationship with optimism and community rotten.
+
+With large amounts of models and planned shoots, we recreated the film scene by scene, using the audience as props, and letting them watch the movie live on the big screen.
+
+<img src={img1}>
+<img src={img2}>
+<img src={img3}>
+<img src={img4}>
+<img src={img5}>
+<img src={img6}>
+<img src={img7}>
+<img src={img8}>

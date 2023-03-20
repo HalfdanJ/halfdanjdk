@@ -13,12 +13,12 @@ jobs:
       - name: Setup node
         uses: actions/setup-node@v1
         with:
-          node-version: 12
+          node-version: 16
 
       - name: Install dependencies
-        run: yarn install --frozen-lockfile
+        run: npm ci
       - name: Build the app
-        run: yarn build
+        run: npm run build
 
       - name: Deploy
         uses: actions-hub/gcloud@master
@@ -27,4 +27,4 @@ jobs:
           APPLICATION_CREDENTIALS: ${{ secrets.GOOGLE_APPLICATION_CREDENTIALS }}
           CLI: gcloud
         with:
-          args: app deploy
+          args: npm run deploy

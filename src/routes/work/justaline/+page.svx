@@ -1,0 +1,26 @@
+---
+title: "Just a Line"
+client: "Google Creative Lab"
+date: "2018-05-30"
+category: "cl"
+---
+
+<script context="module">
+  import YouTube from '$lib/components/YouTube.svelte'
+    import _previewImg from './justaline.png'
+    import _previewVideo from './justaline.mp4'
+
+    metadata.previewImg = _previewImg
+    metadata.previewVideo = _previewVideo
+    
+</script>
+
+<YouTube videoId="IOKwGCQJVCw" />
+
+Just a Line is an [Android](https://play.google.com/store/apps/details?id=com.arexperiments.justaline) and [iOS app](https://apps.apple.com/us/app/just-a-line-draw-in-ar/id1367242427?ls=1) that explores the early possibilities of AR on phones. It was developed when ARCore was released and an [AR Experiment](https://experiments.withgoogle.com/collection/ar).
+
+We also did a collaboration with Shantell Martin, letting her explore the world of 3d drawing
+
+<YouTube videoId="dRj5Xfjh7Dk" />
+
+My role on the project was both creative and technical lead.

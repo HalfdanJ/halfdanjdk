@@ -1,0 +1,28 @@
+---
+title: "Pattern Radio: Whale Songs"
+client: "Google Creative Lab"
+date: "2019-06-07"
+category: "cl"
+---
+
+<script context="module">
+  import YouTube from '$lib/components/YouTube.svelte'
+    import _previewImg from './patternradio.jpg'
+    import _previewVideo from './patternradio.mp4'
+
+    metadata.previewImg = _previewImg
+    metadata.previewVideo = _previewVideo
+    
+</script>
+
+<YouTube videoId="JE3-LkMqBfM" />
+
+[Pattern Radio: Whale Songs](https://patternradio.withgoogle.com/) is a website that lets anyone explore thousands of hours of whale songs. It’s a new kind of tool that visualizes audio at a vast scale and uses AI to make it easy to explore and make discoveries. To learn more, check out this blog post for more details.
+
+The site is a collaboration between Google and the National Oceanic and Atmospheric Administration (NOAA) Pacific Islands Fisheries Science Center (PIFSC) in Hawaii. Many thanks to our collaborators Ann Allen (NOAA), Christopher Clark, Annie Lewandowski, Peter Tyack, David Rothenberg, and Use All Five. And thanks to our friends across Google (Creative Lab, PAIR, Google AI) who helped along the way.
+
+I worked as creative and technical lead on the project.
+
+The site won Webby Award for Best Navigation/Structure in 2020.
+
+Read more about the project [in this blog post](https://medium.com/@alexanderchen/pattern-radio-whale-songs-242c692fff60)

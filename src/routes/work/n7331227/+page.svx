@@ -1,0 +1,30 @@
+---
+date: "2009-11-28"
+title: "n7331227"
+client: "Illutron"
+category: "installations"
+---
+
+<script context="module">
+  import Vimeo from '$lib/components/Vimeo.svelte'
+    import _previewImg from './n7331227.jpg'
+    import _previewVideo from './n7331227.mp4'
+
+    metadata.previewImg = _previewImg
+    metadata.previewVideo = _previewVideo
+    
+</script>
+
+<Vimeo videoId="8281843" />
+
+The industrial robot N7331227 has been used to grind toilet seats — repetitively, monotonously and precisely. Each of them perfect, each of them similar.
+
+Now that its working days are over, Illutron equipped the Robot with new attributes, which shed light on the robot's limitations as a machine and the humans' need for emotional attachment to things.
+
+N7331227 is superior, when it comes to accuracy and endurance, in spite of his fascination with us unintelligible and fragile creatures. In an effort to understand us it tries to copy our movements and actions. In the interactive dimension of the installation, the spectator is asked to express his or her own creativity in paper drawings. N7331227 then attempts to copy the drawings via a panel which controls 96 light bulbs in a matrix
+
+Kunsthallen Brands Kladefabrik describes the installation as following:
+
+> "The Danish artist collective Illutron participate with the work “N7331227” which imbues an old industrial robot with new life. Via computer vision the robot has been equipped with the ability to see and has been programmed to read and reproduce the audience’s drawings on a large wall comprising 96 light bulbs.”
+
+openFrameworks addon ofxABBRobot: [Github](https://github.com/Illutron/ofxABBRobot)

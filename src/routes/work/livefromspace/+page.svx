@@ -1,0 +1,36 @@
+---
+date: "2015-09-28"
+title: "DR3 Live From Space"
+client: "Danish Broadcasting Corporation"
+category: "broadcast"
+---
+
+
+<script context="module">
+  import YouTube from '$lib/components/YouTube.svelte'
+    import _previewImg from './livefromspace.jpg'
+    import _previewVideo from './livefromspace.mp4'
+
+    metadata.previewImg = _previewImg
+    metadata.previewVideo = _previewVideo
+
+    import img2 from './02.jpg'
+    import img3 from './03.jpg'
+    
+</script>
+
+<img src={img3}>
+
+First live 360° transmission from space, transmitted on national TV. We launched a weather balloon mounted with 2 180° GoPro cameras that live transmitted to the ground with custom built antennas where there were receivers.
+
+The result was a great chaotic nerdy experiment live on TV, showing all the beauty of the technology to the viewers.
+
+The project was a quick sprint with collaborators from many corners of DR, started by the science department. My role was to gather data from the different sensors, and visualize it on the TV screen. It ended up with a webpage that took the information live and plotted the current height and temperature of the balloon on a graph that we then keyed into the TV signal.
+
+Check the video that shows the 360 video we produced when the balloon popped.
+
+<YouTube videoId="Ym0v8gkTcfw" />
+
+Read more about the project here: [dr.dk](https://www.dr.dk/presse/dr-sender-ballon-og-kamera-ud-i-verdensrummet) (in Danish)
+
+<img src={img2}>

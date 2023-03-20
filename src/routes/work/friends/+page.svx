@@ -1,0 +1,27 @@
+---
+  date: "2010-04-28"
+  title: "Friends - The One With The Asylum "
+  client: "Fix&Foxy"
+  category: "theatre"
+---
+
+<script context="module">
+  import _previewImg from './friends.jpg'
+  import img1 from './iby_venner_1_439480a.jpg'
+  import img2 from './iby_venner_2_439464a.jpg'
+  import img3 from './iby_venner_4_07-05-_439403a.jpg'
+  import img4 from './IMG_5760.jpg'
+  import img5 from './IMG_5818.jpg'
+
+  metadata.previewImg = _previewImg
+    
+</script>
+
+
+<img src={img1}>
+<img src={img2}>
+<img src={img3}>
+<img src={img4}>
+<img src={img5}>
+
+

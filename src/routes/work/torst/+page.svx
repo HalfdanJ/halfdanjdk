@@ -1,0 +1,18 @@
+---
+date: "2013-05-28"
+title: "Tørst"
+client: "Recoil Performance Group"
+category: "theatre"
+---
+
+<script context="module">
+  import Vimeo from '$lib/components/Vimeo.svelte'
+  import _previewImg from './torst.jpg'
+  import _previewVideo from './torst.mp4'
+
+  metadata.previewImg = _previewImg
+  metadata.previewVideo = _previewVideo
+</script>
+
+
+<Vimeo videoId="66708634" />

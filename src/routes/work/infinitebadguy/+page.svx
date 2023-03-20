@@ -1,0 +1,28 @@
+
+---
+title: "Infinite Bad Guy"
+client: "Google Creative Lab"
+date: "2020-11-07"
+category: "cl"
+---
+
+<script context="module">
+    import _previewImg from './infinitebadguy.jpg'
+    import _previewVideo from './infinitebadguy.mp4'
+
+    import gif from './billie.gif'
+    import alignment from './alignment.jpg'
+
+    metadata.previewImg = _previewImg
+    metadata.previewVideo = _previewVideo
+    
+</script>
+
+<img src={gif}>
+
+Technical lead on [Infinite Bad Guy](https://experiments.withgoogle.com/infinite-bad-guy), an infinite music video that seamlessly allows you to 
+explore cover videos from Billie Eilish "Bad Guy". We trained a custom ML model to automatically time sync the tracks, you can read more about the details of that [here](https://iyoiyo.medium.com/creating-infinite-bad-guy-6a3c0d6afc02). 
+
+<img src={alignment}>
+
+[Read more](https://experiments.withgoogle.com/infinite-bad-guy)

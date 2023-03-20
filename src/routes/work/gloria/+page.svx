@@ -1,0 +1,38 @@
+---
+date: "2013-07-01"
+endDate: "2019-07-01"
+title: "Roskilde Festival Gloria Stage"
+client: "Obscura"
+category: "installations"
+---
+
+<script context="module">
+    import _previewImg from './gloria.jpg'
+    import _previewVideo from './gloria.mp4'
+    
+    import img1 from './stage.jpg'
+    import img2 from './blue.jpg'
+    import img3 from './crew.jpg'
+    import img4 from './tech1.jpg'
+    import img5 from './tech2.jpg'
+    import img6 from './tech3.jpg'
+
+    metadata.previewImg = _previewImg
+    metadata.previewVideo = _previewVideo
+    
+</script>
+
+<img src={img1}>
+<img src={img2}>
+
+Since 2013 I have been part of the visuals at [Vertigo](https://www.vertigo.dk/gloria) for the Gloria Stage on the annual Roskilde Festival. Gloria Stage is the smallest venue (capacity is about 1200) at the festival, that hosts more than 100,000 guests every year. On our stage we get all the small, weird and surprising bands; last year we hosted more than 25 bands over 4 days.
+
+The stage is our annual playground for pushing the boundaries of projection mapping, and live graphics. We use a large custom setup consisting of several Hackintoshes connected, and a combination of openFrameworks apps and class VJ software all composed in [Millumin](http://www.millumin.com/).
+
+<img src={img3}>
+
+We are a team of 14 setting up all the visuals and lighting on the stage in a couple of days, and running all the concerts.
+
+<img src={img4}>
+<img src={img5}>
+<img src={img6}>

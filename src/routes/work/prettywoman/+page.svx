@@ -1,0 +1,19 @@
+---
+date: "2008-11-29"
+title: "Pretty Woman A/S"
+client: "Fix & Foxy"
+category: "theatre"
+---
+<script context="module">
+  import Vimeo from '$lib/components/Vimeo.svelte'
+  import _previewImg from './prettywoman.png'
+  metadata.previewImg = _previewImg
+  
+</script>
+
+
+<Vimeo videoId="59252407" />
+
+Role: Video designer.
+
+[Read more](https://fixfoxy.com/en/pretty-woman-a-s/)

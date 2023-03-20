@@ -1,0 +1,18 @@
+---
+date: "2008-10-29"
+title: "Relief"
+client: "Hotel Pro Forma"
+category: "theatre"
+---
+
+<script context="module">
+  import YouTube from '$lib/components/YouTube.svelte'
+    import _previewImg from './relief.png'
+
+    metadata.previewImg = _previewImg
+    
+</script>
+
+<YouTube videoId="_snIxP7qTbo" />
+
+Role: Video technician
