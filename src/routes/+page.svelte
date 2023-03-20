@@ -44,7 +44,12 @@
 					{#if post.previewVideo}
 						<HoverVideoElement videoSrc={post.previewVideo} imageSrc={post.previewImg} />
 					{:else}
-						<img src={post.previewImg} alt={post.title} class="w-full" />
+						<img
+							src={post.previewImg}
+							alt={post.title}
+							class="w-full sm:h-48 sm:w-48"
+							loading="lazy"
+						/>
 					{/if}
 				</div>
 				<div class="mt-2 text-lg xs:text-base">
