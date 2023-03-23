@@ -8,7 +8,7 @@ category: "cl"
 <script context="module">
   import YouTube from '$lib/components/YouTube.svelte'
   import _previewImg from './restor.png?w=500&h=500&webp'
-  import screen from './screen.png';
+  import screen from './screen.png?w=1792&webp';
 
   metadata.previewImg = _previewImg
     
@@ -18,4 +18,10 @@ category: "cl"
 
 A collaboration between Google and the research group [Crowther Lab](https://www.crowtherlab.com/), developing an open data platform for ecosystem restoration. I was the technical lead on the initial version of the platform that was developed at Google Creative Lab in close collaboration with Google Earth Engine and Crowther Lab. The platform was then handed over to the Restor foundation for continued development and launch. 
 
+The platform allows restoration organizations registering their projects, allowing the platform to both connect related projects, and provide data insights from geospatial calculations. 
+
+Read more on [Restor.eco](https://restor.eco)
+
 <img src={screen}>
+
+*Screenshot of Restor*

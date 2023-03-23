@@ -19,8 +19,7 @@
 </script>
 
 <svelte:head>
-	<title>HalfdanJ | {title}</title>
-	<meta name="description" content={description} />
+	<title>Jonas Jongejan | {title}</title>
 </svelte:head>
 
 <article class="">

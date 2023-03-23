@@ -10,12 +10,12 @@ category: "installations"
     import _previewImg from './gloria.jpg?w=500&h=500&webp'
     import _previewVideo from './gloria.mp4'
     
-    import img1 from './stage.jpg'
-    import img2 from './blue.jpg'
-    import img3 from './crew.jpg'
-    import img4 from './tech1.jpg'
-    import img5 from './tech2.jpg'
-    import img6 from './tech3.jpg'
+    import img1 from './stage.jpg?w=1792&webp'
+    import img2 from './blue.jpg?w=1792&webp'
+    import img3 from './crew.jpg?w=1792&webp'
+    import img4 from './tech1.jpg?w=1792&webp'
+    import img5 from './tech2.jpg?w=1792&webp'
+    import img6 from './tech3.jpg?w=1792&webp'
 
     metadata.previewImg = _previewImg
     metadata.previewVideo = _previewVideo
