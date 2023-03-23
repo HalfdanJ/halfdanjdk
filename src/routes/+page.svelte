@@ -12,10 +12,10 @@
 
 <div class="mb-12 mt-4">
 	<p class="mb-4">
-		I'm a Creative Technologist currently working at the Google Creative Lab in New York. I've
-		worked on a wide range of projects here, often touching on making science and technology more
-		accessible to everyone, or adding a little bit of delight to topics such as machine learning and
-		AR.
+		I'm a Creative Technologist / Fullstack Software Engineer / Hot Glue Gun Developer, or whatever
+		you want to call it, currently working at the Google Creative Lab in New York. I've worked on a
+		wide range of projects, often touching on making science and technology more accessible to
+		everyone, or adding a little bit of delight to topics such as machine learning and AR.
 	</p>
 	<p>
 		I previously worked on interactive video set designs for theatre and dance pieces, and created
