@@ -18,7 +18,7 @@ category: "theatre"
 </script>
 
 
-Theatre production by [Flyvende Grise](https://vimeo.com/flyvendegrise) using two large Kuka industrials robots on stage. I was asked to be in charge of robot programming, and went to Sweden to get a Kuka Robot Certificate.
+Theatre production by [Flyvende Grise](https://vimeo.com/flyvendegrise) using two large Kuka industrial robots on stage. I was asked to be in charge of robot programming and went to Sweden to get a Kuka Robot Certificate.
 
 <img src={img} title="Photo by Bjarne Stehr" class="w-full" >
 

@@ -20,7 +20,7 @@ category: "cl"
 
 A joint effort between Google and the research group [Crowther Lab](https://www.crowtherlab.com/), Restor is an open data platform designed to facilitate ecosystem restoration. As the technical lead for the initial version, I collaborated closely with creatives in Google Creative Lab, Google Earth Engine, and Crowther Lab. The platform was later handed over to the Restor foundation for ongoing development and launch.
 
-Restor enables restoration organizations to register their projects, allowing the platform to not only connect related projects, but also provide valuable data insights through geospatial calculations.
+Restor enables restoration organizations to register their projects, allowing the platform to not only connect related projects but also provide valuable data insights through geospatial calculations.
 
 Learn more at [Restor.eco](https://restor.eco)
 

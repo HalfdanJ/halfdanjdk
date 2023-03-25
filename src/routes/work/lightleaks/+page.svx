@@ -21,7 +21,7 @@ category: "installations"
 <YouTube videoId="kLF6wUwy0iQ" />
 <Vimeo videoId="66167082" />
 
-A scattered array of fifty mirror balls reflect light from three projectors, filling a room completely with small reflections, casting patterns that fill the visitor’s peripheral vision. This creates a curious space that alternates between a meditative state, and an uneasy imbalance. It's an experiment in combining a found object with computer vision to create a profound and unusual experience. This installation was created in collaboration with [Kyle McDonald](http://kylemcdonald.net/) originally for [Click Festival 2013](http://clickfestival.dk/)
+A scattered array of fifty mirror balls reflect light from three projectors, filling a room with small reflections, and casting patterns that fill the visitor’s peripheral vision. This creates a curious space that alternates between a meditative state, and an uneasy imbalance. It's an experiment in combining a found object with computer vision to create a profound and unusual experience. This installation was created in collaboration with [Kyle McDonald](http://kylemcdonald.net/) originally for [Click Festival 2013](http://clickfestival.dk/)
 
 This installation has over the years been improved and shown at various places: 
 - Click Festival (Denmark, 2013)

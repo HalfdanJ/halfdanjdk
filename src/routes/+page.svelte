@@ -18,9 +18,9 @@
 		everyone, or adding a little bit of delight to topics such as machine learning and AR.
 	</p>
 	<p>
-		I previously worked on interactive video set designs for theatre and dance pieces, and created
+		I previously worked on interactive video set designs for theatre and dance pieces and created
 		installations using video tracking, robots and lights. Lastly, I worked for a few years for the
-		Danish Broadcasting Corporation innovating on new ways of making graphics for the tv.
+		Danish Broadcasting Corporation, innovating new ways of making graphics for the tv.
 	</p>
 </div>
 

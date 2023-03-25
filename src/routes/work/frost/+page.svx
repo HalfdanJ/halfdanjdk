@@ -19,7 +19,7 @@ category: "theatre"
 
 <Vimeo videoId="35794733" />
 
-Dance performance made together with Danish Dance Theatre, Tina Tarpgaard (choreographer), and Ole Kristensen. All the software that generated the scenography with one projector, was created by me and Ole over 1 month using openFrameworks.
+The dance performance was made together with Danish Dance Theatre, Tina Tarpgaard (choreographer), and Ole Kristensen. All the software that generated the scenography with one projector, was created by me and Ole over 1-month using openFrameworks.
 
 In 2010 the show won a Reumert for best dance performance, and has been shown several times in Copenhagen, and has been on tour to Amman (Jordan), Düsseldorf (Germany) and Århus (Denmark).
 

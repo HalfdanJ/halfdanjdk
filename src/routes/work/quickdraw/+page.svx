@@ -23,7 +23,7 @@ I came up with the idea for the game during an internal hackathon, and with huge
 
 The hope was to give people a game that allowed them to interact with machine learning in a fun and delightful way.
 
-The game went viral at launch, and was for a brief moment #1 on reddit, and even got on Fox News...
+The game went viral at launch, and was for a brief moment #1 on Reddit, and even got on Fox News...
 
 <YouTube videoId="ZOXKLz4UfRY" />
 

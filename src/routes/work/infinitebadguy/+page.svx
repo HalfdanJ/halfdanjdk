@@ -18,7 +18,7 @@ category: "cl"
     
 </script>
 
-As a technical lead, I contributed to the development of [Infinite Bad Guy](https://experiments.withgoogle.com/infinite-bad-guy), an innovative, AI-driven infinite music video experience that allows users to explore thousands of cover videos of Billie Eilish's "Bad Guy." Our team created a custom machine learning model to automatically synchronize the tracks, aligning them on beat for endless remix possibilities. Learn more about the technical details [here](https://iyoiyo.medium.com/creating-infinite-bad-guy-6a3c0d6afc02).
+As a technical lead, I contributed to the development of [Infinite Bad Guy](https://experiments.withgoogle.com/infinite-bad-guy), an innovative, AI-driven infinite music video experience that allows users to explore thousands of cover videos of Billie Eilish's "Bad Guy." Our team created a custom machine learning model to automatically synchronize the tracks, aligning them on the beat for endless remix possibilities. Learn more about the technical details [here](https://iyoiyo.medium.com/creating-infinite-bad-guy-6a3c0d6afc02).
 
 <img src={gif}>
 
