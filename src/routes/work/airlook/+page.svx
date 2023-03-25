@@ -17,13 +17,13 @@ category: "broadcast"
     
 </script>
 
-Worked over a long period from 2013 on a large project at the [Danish Broadcast - DR](http://dr.dk) on creating a new system for handling all video clips in between the programs, also known as the Airlook.
 
-The task was to come up with a system where the advanced ideas the DR Design department had for the new designs on the 6 TV channels could work in an automated broadcast world. It turned out that no broadcast systems could handle it, so we had to create it from bottom up.
+During my time at the [Danish Broadcasting Corporation (DR)](https://dr.dk), I worked on a large project called DR Airlook. The goal of this project was to create a new system for handling all video clips between programs. The DR Design department had advanced ideas for new designs on the six TV channels, but no existing broadcast systems could automatically handle them. So, my team and I had to create the system from the bottom up.
 
-Together with [Johan Bichel](http://johan.cc) and Martin Bollerup, we created a new system using our own render farm of After Effects machines that automatically rendered the video clips using custom programmed templates.
+## My Role
+I worked with [Johan Bichel](http://johan.cc) and Martin Bollerup to develop the DR Airlook system. We created a render farm of After Effects machines that automatically rendered video clips using custom-programmed templates, and a web interface for the users of the system to specify the variables for the templates and manage all renderings.
 
-Here are a couple of the airlooks we implemented.
+Here are a few examples of airlooks implemented:
 
 DR Ramasjang (for small children)
 
@@ -41,6 +41,6 @@ DR Ultra (for older children)
 
 <Vimeo videoId="68201881" />
 
-We also created a site where marketing could specify all the variables, and get them rendered automatically.
+The tool itself looked like this:
 
 <img alt="Screenshot of gmab tool" src={image}>

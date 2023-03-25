@@ -16,11 +16,13 @@ category: "cl"
 
 <YouTube videoId="yJX1Te0jey0" />
 
-A collaboration between Google and the research group [Crowther Lab](https://www.crowtherlab.com/), developing an open data platform for ecosystem restoration. I was the technical lead on the initial version of the platform that was developed at Google Creative Lab in close collaboration with Google Earth Engine and Crowther Lab. The platform was then handed over to the Restor foundation for continued development and launch. 
+**Restor: An Open Data Platform for Ecosystem Restoration**
 
-The platform allows restoration organizations registering their projects, allowing the platform to both connect related projects, and provide data insights from geospatial calculations. 
+A joint effort between Google and the research group [Crowther Lab](https://www.crowtherlab.com/), Restor is an open data platform designed to facilitate ecosystem restoration. As the technical lead for the initial version, I collaborated closely with creatives in Google Creative Lab, Google Earth Engine, and Crowther Lab. The platform was later handed over to the Restor foundation for ongoing development and launch.
 
-Read more on [Restor.eco](https://restor.eco)
+Restor enables restoration organizations to register their projects, allowing the platform to not only connect related projects, but also provide valuable data insights through geospatial calculations.
+
+Learn more at [Restor.eco](https://restor.eco)
 
 <img src={screen}>
 

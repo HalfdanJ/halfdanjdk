@@ -31,7 +31,7 @@
 		<time datetime={date}>{parsedDate.getFullYear()}</time>
 		{#if parsedEndDate}
 			to
-			<time datetime={endDate}>{parsedDate.getFullYear()}</time>
+			<time datetime={endDate}>{parsedEndDate.getFullYear()}</time>
 		{:else if active}
 			to present
 		{/if}
@@ -51,6 +51,10 @@
 	}
 	article :global(img) {
 		@apply my-8;
+	}
+
+	article :global(h2) {
+		@apply text-lg font-semibold;
 	}
 
 	article :global(blockquote) {

@@ -18,12 +18,15 @@ category: "cl"
     
 </script>
 
+As a technical lead, I contributed to the development of [Infinite Bad Guy](https://experiments.withgoogle.com/infinite-bad-guy), an innovative, AI-driven infinite music video experience that allows users to explore thousands of cover videos of Billie Eilish's "Bad Guy." Our team created a custom machine learning model to automatically synchronize the tracks, aligning them on beat for endless remix possibilities. Learn more about the technical details [here](https://iyoiyo.medium.com/creating-infinite-bad-guy-6a3c0d6afc02).
 
-Technical lead on [Infinite Bad Guy](https://experiments.withgoogle.com/infinite-bad-guy), an infinite music video that seamlessly allows you to 
-explore cover videos from Billie Eilish "Bad Guy". We trained a custom ML model to automatically time sync the tracks, you can read more about the details of that [here](https://iyoiyo.medium.com/creating-infinite-bad-guy-6a3c0d6afc02). 
+<img src={gif}>
 
 <img src={alignment}>
 
-[Read more](https://experiments.withgoogle.com/infinite-bad-guy)
 
-<img src={gif}>
+The experience was launched on November 23rd, 2020 to celebrate Billie Eilish's "Bad Guy" reaching 1 billion views. This unique AI experiment used machine learning to seamlessly combine thousands of "Bad Guy" covers, creating endless combinations of music videos that differed every time they were played.
+
+The machine learning algorithm organized over 15,000 fan covers into more than one hundred categories, such as ASL, rubber chicken, wind instruments, and death metal. Despite significant differences in beat, tempo, and lyrics, the algorithm successfully aligned the songs to generate infinite remixes.
+
+For more information, visit YouTube's [Official Blog](https://blog.youtube/news-and-events/billie-eilish-infinite-bad-guy-music-video/).

@@ -8,6 +8,7 @@ category: "installations"
 
 <script context="module">
   import Vimeo from '$lib/components/Vimeo.svelte'
+  import YouTube from '$lib/components/YouTube.svelte'
     import _previewImg from './lightleaks.jpg?w=500&h=500&webp'
     import _previewVideo from './lightleaks.mp4'
 
@@ -17,13 +18,29 @@ category: "installations"
 </script>
 
 
+<YouTube videoId="kLF6wUwy0iQ" />
 <Vimeo videoId="66167082" />
 
 A scattered array of fifty mirror balls reflect light from three projectors, filling a room completely with small reflections, casting patterns that fill the visitor’s peripheral vision. This creates a curious space that alternates between a meditative state, and an uneasy imbalance. It's an experiment in combining a found object with computer vision to create a profound and unusual experience. This installation was created in collaboration with [Kyle McDonald](http://kylemcdonald.net/) originally for [Click Festival 2013](http://clickfestival.dk/)
 
-This installation has over the years been improved and shown at various places, such as [La Gaîté Lyrique](https://gaite-lyrique.net/en/capitaine-futur-and-the-extraordinary-journey) (Paris, 2014) and [Scopitone Festival](http://www.stereolux.org/scopitone-2016) (Nantes, 2015).
+This installation has over the years been improved and shown at various places: 
+- Click Festival (Denmark, 2013)
+- La Gaîté Lyrique (Paris, 2014)
+- [Scopitone Festival](http://www.stereolux.org/) (Nantes, 2015).
+- BLACK Festival (NYC, 2017)
+- Day for Night (Houston, 2017)
+- Los Angeles Music Center (LA, 2018)
+- Todaysart Festival (Den Haag, 2018)
+- Lights all Night (Dallas, 2018, 2019)
+- ROW DTLA (Los Angeles, 2019)
+- LLUM Festival (Barcelona, 2019)
+- [Wonderspace](https://www.wonderspaces.com/artists/kylemcdonaldjonasjongejan) (Phoenix, 2020-2023)
+- [Light Leaks: Immersive Art Experience Popup](https://www.thousanddeep.com/blogs/experiences/light-leaks) (NYC, 2021)
 
-**Press mentions:**
+
+
+
+**Featured In:**
 - [Creative Applications](http://www.creativeapplications.net/environment/light-leaks-filling-a-room-with-projected-light/),
 - Holo 1 Magazine,
 - [Wired](http://www.wired.com/2013/05/showtime-kyle-mcdonald-light-leaks/),

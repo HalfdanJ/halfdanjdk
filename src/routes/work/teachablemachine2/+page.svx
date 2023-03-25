@@ -15,8 +15,8 @@ category: "cl"
 </script>
 
 
-<YouTube videoId="T2qQGqZxkD0" opts={{ width: "750" }} />
+<YouTube videoId="T2qQGqZxkD0"  />
 
-Teachable Machine 2.0 is an updated version of [the original Teachable Machine](/work/teachablemachine). Its a website that allows anyone to easily and quickly train a classification model right in the browser using TensorFlow.js. The site allows both training image, audio and pose models, and allows you to export the models to various formats, enabling quick prototyping with machine learning.
+Teachable Machine 2.0 is an enhanced version of [the original Teachable Machine](/work/teachablemachine). This user-friendly website enables anyone to swiftly train a classification model directly in the browser using TensorFlow.js. The platform supports training for image, audio, and pose models, and provides the option to export the models in various formats. This feature facilitates rapid prototyping with machine learning.
 
-The project has been awarded with a Webby award for technical achievement.
+Teachable Machine 2.0 has been honored with a Webby Award for its technical achievement.
