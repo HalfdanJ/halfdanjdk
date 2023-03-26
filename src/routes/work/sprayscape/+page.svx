@@ -16,7 +16,7 @@
 
 <YouTube videoId="6o3_m4-YH9U" />
 
-An experimental [Android app](https://sprayscape.com/) released under [Android Experiment](https://www.androidexperiments.com/experiment/sprayscape) by Google Creative Lab.
+An experimental [Android app](https://sprayscape.com/) was released under [Android Experiment](https://www.androidexperiments.com/experiment/sprayscape) by Google Creative Lab.
 
 > A perfectly imperfect VR-ish camera for capturing faces, places, and spaces.
 

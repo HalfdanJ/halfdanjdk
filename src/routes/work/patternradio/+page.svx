@@ -21,7 +21,7 @@ category: "cl"
 
 The site is a collaboration between Google and the National Oceanic and Atmospheric Administration (NOAA) Pacific Islands Fisheries Science Center (PIFSC) in Hawaii. Many thanks to our collaborators Ann Allen (NOAA), Christopher Clark, Annie Lewandowski, Peter Tyack, David Rothenberg, and Use All Five. And thanks to our friends across Google (Creative Lab, PAIR, Google AI) who helped along the way.
 
-I worked as creative and technical lead on the project.
+I worked as a creative and technical lead on the project.
 
 The site won Webby Award for Best Navigation/Structure in 2020.
 
