@@ -24,7 +24,7 @@
 
 <article class="">
 	<header class="mb-12">
-		<h1 class="text-2xl font-semibold">{title}</h1>
+		<h1 class="text-xl font-semibold sm:text-2xl">{title}</h1>
 		{#if client}
 			{client} -
 		{/if}

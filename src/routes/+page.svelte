@@ -24,46 +24,48 @@
 	</p>
 </div>
 
-<h1 class="mb-4 text-2xl font-semibold">Selected Work</h1>
+<h1 class="mb-4 text-xl font-semibold sm:text-2xl">Selected Work</h1>
 
 <div class="flex flex-wrap gap-8">
 	{#each Object.keys(data.groupedPosts) as group}
 		{#if group === 'cl'}
-			<div class="w-full text-lg font-semibold">Google Creative Lab</div>
+			<div class="w-full text-base font-semibold sm:text-lg">Google Creative Lab</div>
 		{:else if group === 'broadcast'}
-			<div class="w-full text-lg font-semibold">TV / Broadcast</div>
+			<div class="w-full text-base font-semibold sm:text-lg">TV / Broadcast</div>
 		{:else}
-			<div class="w-full text-lg font-semibold capitalize">{group}</div>
+			<div class="w-full text-base font-semibold capitalize sm:text-lg">{group}</div>
 		{/if}
 		{@const posts = data.groupedPosts[group]}
-		{#each posts as post, i}
-			<a href={post.slug} class="group mb-8 w-full no-underline hover:text-black xs:w-48">
-				<div
-					class="relative overflow-clip rounded-lg shadow transition-all group-hover:-translate-y-0.5 group-hover:shadow-lg"
-				>
-					{#if post.previewVideo}
-						<HoverVideoElement videoSrc={post.previewVideo} imageSrc={post.previewImg} />
-					{:else}
-						<img
-							src={post.previewImg}
-							alt={post.title}
-							class="w-full xs:h-48 xs:w-48"
-							loading="lazy"
-						/>
-					{/if}
-				</div>
-				<div class="mt-2 text-lg xs:text-base">
-					{post.title}
-					<span class="ml-1 font-extralight text-slate-400">
-						{year(post.date)}
-						{#if post.endDate}
-							- {year(post.endDate)}
-						{:else if post.active}
-							- present
+		<div class="grid grid-cols-2 gap-6 gap-y-12 sm:flex sm:flex-wrap">
+			{#each posts as post, i}
+				<a href={post.slug} class="group max-w-[12rem] no-underline hover:text-black">
+					<div
+						class="relative overflow-clip rounded-lg shadow transition-all group-hover:-translate-y-0.5 group-hover:shadow-lg"
+					>
+						{#if post.previewVideo}
+							<HoverVideoElement videoSrc={post.previewVideo} imageSrc={post.previewImg} />
+						{:else}
+							<img
+								src={post.previewImg}
+								alt={post.title}
+								class="w-full xs:h-48 xs:w-48"
+								loading="lazy"
+							/>
 						{/if}
-					</span>
-				</div>
-			</a>
-		{/each}
+					</div>
+					<div class="mt-2 text-sm sm:text-base">
+						<span class="mr-1">{post.title}</span>
+						<span class="font-extralight text-slate-400">
+							{year(post.date)}
+							{#if post.endDate}
+								- {year(post.endDate)}
+							{:else if post.active}
+								- present
+							{/if}
+						</span>
+					</div>
+				</a>
+			{/each}
+		</div>
 	{/each}
 </div>
