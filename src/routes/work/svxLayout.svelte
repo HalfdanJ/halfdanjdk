@@ -24,7 +24,7 @@
 
 <article class="">
 	<header class="mb-12">
-		<h1 class="font-semibold text-2xl">{title}</h1>
+		<h1 class="text-2xl font-semibold">{title}</h1>
 		{#if client}
 			{client} -
 		{/if}
@@ -58,6 +58,6 @@
 	}
 
 	article :global(blockquote) {
-		@apply bg-slate-800 font-extralight px-4 py-2;
+		@apply bg-slate-800 px-4 py-2 font-extralight;
 	}
 </style>

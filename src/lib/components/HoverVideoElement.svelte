@@ -26,7 +26,7 @@
 </script>
 
 <div
-	class="relative xs:w-48 xs:h-48"
+	class="relative xs:h-48 xs:w-48"
 	on:mouseenter={() => $xsBreakpoint && start()}
 	on:mouseleave={() => $xsBreakpoint && stop()}
 	use:inview={{ rootMargin: '-45%' }}
@@ -44,7 +44,7 @@
 	/>
 	<img
 		style:opacity={hovering ? 0 : 100}
-		class="object-cover absolute top-0 transition-all xs:w-48 xs:h-48"
+		class="absolute top-0 object-cover transition-all xs:h-48 xs:w-48"
 		alt={'preview'}
 		src={imageSrc}
 		loading="lazy"

@@ -24,7 +24,7 @@
 	</p>
 </div>
 
-<h1 class="mb-4 font-semibold text-2xl">Selected Work</h1>
+<h1 class="mb-4 text-2xl font-semibold">Selected Work</h1>
 
 <div class="flex flex-wrap gap-8">
 	{#each Object.keys(data.groupedPosts) as group}
@@ -37,9 +37,9 @@
 		{/if}
 		{@const posts = data.groupedPosts[group]}
 		{#each posts as post, i}
-			<a href={post.slug} class="hover:text-black no-underline mb-8 group w-full xs:w-48">
+			<a href={post.slug} class="group mb-8 w-full no-underline hover:text-black xs:w-48">
 				<div
-					class="rounded-lg overflow-clip relative shadow transition-all group-hover:shadow-lg group-hover:-translate-y-0.5"
+					class="relative overflow-clip rounded-lg shadow transition-all group-hover:-translate-y-0.5 group-hover:shadow-lg"
 				>
 					{#if post.previewVideo}
 						<HoverVideoElement videoSrc={post.previewVideo} imageSrc={post.previewImg} />
@@ -54,7 +54,7 @@
 				</div>
 				<div class="mt-2 text-lg xs:text-base">
 					{post.title}
-					<span class="text-slate-400 ml-1 font-extralight">
+					<span class="ml-1 font-extralight text-slate-400">
 						{year(post.date)}
 						{#if post.endDate}
 							- {year(post.endDate)}

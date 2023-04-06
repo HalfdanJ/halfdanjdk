@@ -41,6 +41,7 @@
 		"@types/youtube": "^0.0.47",
 		"@vimeo/player": "^2.18.0",
 		"date-fns": "^2.29.3",
+		"prettier-plugin-tailwindcss": "^0.2.7",
 		"svelte-adapter-appengine": "^0.10.1",
 		"svelte-inview": "^4.0.0"
 	}

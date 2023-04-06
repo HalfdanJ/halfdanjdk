@@ -39,10 +39,13 @@ export const load = (async () => {
 		a.active ? -1 : (a.endDate || a.date) < (b.endDate || b.date) ? 1 : -1
 	);
 
-	const groupedPosts = posts.reduce((prev, post) => {
-		prev[post.category] = [...(prev[post.category] || []), post];
-		return prev;
-	}, { cl: [] } as Record<string, Post[]>);
+	const groupedPosts = posts.reduce(
+		(prev, post) => {
+			prev[post.category] = [...(prev[post.category] || []), post];
+			return prev;
+		},
+		{ cl: [] } as Record<string, Post[]>
+	);
 	return {
 		// posts,
 		groupedPosts
