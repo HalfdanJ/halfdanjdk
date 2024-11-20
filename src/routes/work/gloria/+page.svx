@@ -1,6 +1,6 @@
 ---
 date: "2013-07-01"
-endDate: "2019-07-01"
+endDate: "2024-07-01"
 title: "Roskilde Festival Gloria Stage"
 client: "Obscura"
 category: "installations"

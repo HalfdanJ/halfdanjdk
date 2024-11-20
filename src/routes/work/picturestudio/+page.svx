@@ -1,0 +1,24 @@
+---
+title: "Picture.Studio"
+client: "Picture.Studio"
+date: "2023-06-01"
+endDate: "2024-11-01"
+category: "Product Development"
+---
+
+
+<script context="module">
+    import _previewImg from './ps.png?w=500&h=500&webp'
+    import screenshot from './screenshot.avif'
+    
+    metadata.previewImg = _previewImg
+    
+</script>
+
+[Picture.studio](https://picture.studio) is a tool created for designed and creatives meant to let them utilize the new capabilities AI provides for image creation and editing. 
+
+As a founding member and the company's first CTO, I led the technical work in its first year and a half. This involved all the early stage decisions and work 
+of building the application, from the initial MVP to the first public release. This involved both building out infrastructure on Kubernetes for image inference and model training, as well
+as all the api and frontend work to make the application usable, as well as setting up a team of developers to push the project forward.
+
+<img src={screenshot} alt="Screenshot of Picture.Studio" />

@@ -1,6 +1,6 @@
 ---
 date: "2013-05-01"
-active: true
+endDate: "2024-01-31"
 title: "Light Leaks"
 client: "Collaboration with Kyle McDonald"
 category: "installations"

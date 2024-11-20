@@ -35,17 +35,21 @@ async function getPosts() {
 
 export const load = (async () => {
 	let posts = await getPosts();
-	posts = posts.sort((a, b) =>
-		a.active ? -1 : (a.endDate || a.date) < (b.endDate || b.date) ? 1 : -1
-	);
 
-	const groupedPosts = posts.reduce(
-		(prev, post) => {
-			prev[post.category] = [...(prev[post.category] || []), post];
-			return prev;
-		},
-		{ cl: [] } as Record<string, Post[]>
-	);
+	posts = posts.sort((a, b) => {
+		const dateA = new Date(a.endDate || a.date).getTime();
+		const dateB = new Date(b.endDate || b.date).getTime();
+
+		if (a.active) return -1;
+		if (b.active) return 1;
+		return dateA < dateB ? 1 : -1;
+	});
+
+	const groupedPosts = posts.reduce((prev, post) => {
+		prev[post.category] = [...(prev[post.category] || []), post];
+		return prev;
+	}, {} as Record<string, Post[]>);
+
 	return {
 		// posts,
 		groupedPosts
