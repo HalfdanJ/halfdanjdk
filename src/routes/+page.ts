@@ -14,6 +14,29 @@ export interface Post {
 	active?: boolean;
 }
 
+const categories: Record<string, { order: number; title: string }> = {
+	product: {
+		order: 0,
+		title: 'Product Development'
+	},
+	cl: {
+		order: 1,
+		title: 'Google Creative Lab'
+	},
+	installations: {
+		order: 2,
+		title: 'Installations'
+	},
+	broadcast: {
+		order: 3,
+		title: 'TV / Broadcast'
+	},
+	theatre: {
+		order: 4,
+		title: 'Theatre'
+	}
+};
+
 async function getPosts() {
 	const modules = import.meta.glob(`../routes/work/**/*.svx`); // load all the svx files
 
@@ -50,8 +73,19 @@ export const load = (async () => {
 		return prev;
 	}, {} as Record<string, Post[]>);
 
+	const sortedGroupedPosts = Object.entries(groupedPosts)
+		.sort((a, b) => {
+			if (!categories[a[0]] || !categories[b[0]]) return 0;
+			return categories[a[0]].order - categories[b[0]].order;
+		})
+		.reduce((prev, [key, value]) => {
+			prev[key] = value;
+			return prev;
+		}, {} as Record<string, Post[]>);
+
 	return {
 		// posts,
-		groupedPosts
+		categories,
+		groupedPosts: sortedGroupedPosts
 	};
 }) satisfies PageLoad;

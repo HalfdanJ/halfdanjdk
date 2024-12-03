@@ -3,7 +3,7 @@ title: "Picture.Studio"
 client: "Picture.Studio"
 date: "2023-06-01"
 endDate: "2024-11-01"
-category: "Product Development"
+category: "product"
 ---
 
 

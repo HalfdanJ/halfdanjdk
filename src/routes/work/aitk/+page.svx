@@ -9,18 +9,24 @@ category: "cl"
     //import Vimeo from '$lib/components/Vimeo.svelte'
     import image from './blog.webp?w=896&webp'
     import _previewImg from './aitk.jpg?w=500&h=500&webp'
+    import YouTube from '$lib/components/YouTube.svelte'
     
 
     metadata.previewImg = _previewImg    
 </script>
 
 
-I served as the technical lead during the initial development phase of the **AI Test Kitchen**, a groundbreaking project that showcased the potential of Google's Large Language Model, _LaMDA_. 
+I served as the technical lead during the initial development phase of the **AI Test Kitchen**, a project that showcased the potential of Google's Large Language Model, _LaMDA_, and the first public launch of Googles LLM model. 
+The project came together in a matter of few months, and required involvement from collaborators across the company. 
 
 This collaborative project involved Google Creative Lab, Google Research, and Google AI and was officially announced at Google I/O 2022. It featured three distinct demos utilizing LaMDA, each designed to highlight different aspects of the chat model's capabilities. 
 
 The successful launch of the first three demos was made possible by the tireless efforts of a diverse, cross-functional team who worked on numerous experiments, prototypes, and ideas behind the scenes.
 
 [Learn More](https://blog.google/technology/ai/join-us-in-the-ai-test-kitchen/)
+
+Below is the launch video for the AI Test Kitchen at Google I/O 2022 including the live demos
+
+<YouTube videoId="nP-nMZpLM1A" start="2437" />
 
 <img src={image} alt="AI Test Kitchen">

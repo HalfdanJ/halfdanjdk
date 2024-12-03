@@ -28,13 +28,8 @@
 
 <div class="flex flex-wrap gap-8">
 	{#each Object.keys(data.groupedPosts) as group}
-		{#if group === 'cl'}
-			<div class="w-full text-base font-semibold sm:text-lg">Google Creative Lab</div>
-		{:else if group === 'broadcast'}
-			<div class="w-full text-base font-semibold sm:text-lg">TV / Broadcast</div>
-		{:else}
-			<div class="w-full text-base font-semibold capitalize sm:text-lg">{group}</div>
-		{/if}
+		{@const category = data.categories[group]}
+		<div class="w-full text-base font-semibold capitalize sm:text-lg">{category.title}</div>
 		{@const posts = data.groupedPosts[group]}
 		<div class="grid grid-cols-2 gap-6 gap-y-12 sm:flex sm:flex-wrap">
 			{#each posts as post, i}
