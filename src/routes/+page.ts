@@ -68,20 +68,26 @@ export const load = (async () => {
 		return dateA < dateB ? 1 : -1;
 	});
 
-	const groupedPosts = posts.reduce((prev, post) => {
-		prev[post.category] = [...(prev[post.category] || []), post];
-		return prev;
-	}, {} as Record<string, Post[]>);
+	const groupedPosts = posts.reduce(
+		(prev, post) => {
+			prev[post.category] = [...(prev[post.category] || []), post];
+			return prev;
+		},
+		{} as Record<string, Post[]>
+	);
 
 	const sortedGroupedPosts = Object.entries(groupedPosts)
 		.sort((a, b) => {
 			if (!categories[a[0]] || !categories[b[0]]) return 0;
 			return categories[a[0]].order - categories[b[0]].order;
 		})
-		.reduce((prev, [key, value]) => {
-			prev[key] = value;
-			return prev;
-		}, {} as Record<string, Post[]>);
+		.reduce(
+			(prev, [key, value]) => {
+				prev[key] = value;
+				return prev;
+			},
+			{} as Record<string, Post[]>
+		);
 
 	return {
 		// posts,

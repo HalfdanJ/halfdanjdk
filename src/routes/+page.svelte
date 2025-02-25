@@ -10,7 +10,7 @@
 	}
 </script>
 
-<div class="mb-12 mt-4">
+<div class="mt-4 mb-12">
 	<p class="mb-4">
 		I'm a Creative Technologist / Fullstack Software Engineer / Hot Glue Gun Developer, or whatever
 		you want to call it, previously at the Google Creative Lab in New York. I've worked on a wide
@@ -43,7 +43,7 @@
 							<img
 								src={post.previewImg}
 								alt={post.title}
-								class="w-full xs:h-48 xs:w-48"
+								class="xs:h-48 xs:w-48 w-full"
 								loading="lazy"
 							/>
 						{/if}

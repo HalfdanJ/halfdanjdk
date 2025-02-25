@@ -40,6 +40,8 @@
 </article>
 
 <style lang="postcss">
+	@reference "tailwindcss/theme";
+
 	article :global(a) {
 		@apply underline;
 	}

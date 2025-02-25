@@ -4,11 +4,11 @@
 
 <main class="min-h-screen bg-white pb-16 text-sm text-black sm:text-base lg:pb-24">
 	<div
-		class="mx-auto flex  max-w-sm  flex-col px-4 font-light xs:max-w-md sm:max-w-xl md:max-w-3xl lg:max-w-4xl"
+		class="xs:max-w-md mx-auto flex max-w-sm flex-col px-4 font-light sm:max-w-xl md:max-w-3xl lg:max-w-4xl"
 	>
-		<header class="mx-auto flex w-full  flex-wrap items-center gap-y-0.5 gap-x-4 py-8 align-middle">
+		<header class="mx-auto flex w-full flex-wrap items-center gap-x-4 gap-y-0.5 py-8 align-middle">
 			<div>
-				<a href="/" class="text-lg font-light uppercase no-underline "> Jonas Jongejan </a>
+				<a href="/" class="text-lg font-light uppercase no-underline"> Jonas Jongejan </a>
 				<!-- <span
 					class="font-light text-lg no-underline uppercase text-gray-400"
 					>/ Creative Technologist</span
@@ -43,11 +43,13 @@
 </svelte:head>
 
 <style lang="postcss">
+	@reference "tailwindcss/theme";
+
 	/* :global(h1) {
 		@apply text-3xl font-extrabold leading-tight lg:text-4xl;
 	} */
 
 	a {
-		@apply hover:text-gray-600;
+		/* @apply hover:text-gray-600; */
 	}
 </style>
