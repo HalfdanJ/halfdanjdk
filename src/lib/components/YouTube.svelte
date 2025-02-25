@@ -13,4 +13,4 @@
 	title="YouTube video player"
 	class="max-w-full"
 	src="https://www.youtube.com/embed/{videoId}?autoplay=0&fs=0&iv_load_policy=3&showinfo=0&rel=0&cc_load_policy=0&start={start}&end=0&origin=https://halfdanj.dk"
-/>
+></iframe>

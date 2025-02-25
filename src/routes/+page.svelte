@@ -3,7 +3,11 @@
 	import HoverVideoElement from '$lib/components/HoverVideoElement.svelte';
 	import parseISO from 'date-fns/parseISO/index.js';
 
-	export let data: PageData;
+	interface Props {
+		data: PageData;
+	}
+
+	let { data }: Props = $props();
 
 	function year(date: string) {
 		return parseISO(date).getFullYear();

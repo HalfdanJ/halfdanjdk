@@ -1,5 +1,10 @@
-<script>
+<script lang="ts">
 	import '../app.css';
+	interface Props {
+		children?: import('svelte').Snippet;
+	}
+
+	let { children }: Props = $props();
 </script>
 
 <main class="min-h-screen bg-white pb-16 text-sm text-black sm:text-base lg:pb-24">
@@ -15,7 +20,7 @@
 				> -->
 			</div>
 
-			<div class="w-full grow sm:w-min" />
+			<div class="w-full grow sm:w-min"></div>
 
 			<a href="mailto:jonas@halfdanj.dk" target="_blank">E-mail</a>
 			<a href="https://twitter.com/halfdanj" target="_blank" rel="noreferrer">Twitter</a>
@@ -23,7 +28,7 @@
 			<a href="https://www.linkedin.com/in/halfdanj/" target="_blank" rel="noreferrer">LinkedIn</a>
 		</header>
 		<div class="mx-auto w-full">
-			<slot />
+			{@render children?.()}
 		</div>
 	</div>
 </main>

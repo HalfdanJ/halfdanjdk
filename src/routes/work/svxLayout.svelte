@@ -4,8 +4,6 @@
 	/** @type{string} */
 	export let title;
 	/** @type{string} */
-	export let description;
-	/** @type{string} */
 	export let date;
 	/** @type{string} */
 	export let client;

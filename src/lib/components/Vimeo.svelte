@@ -72,4 +72,4 @@
 	});
 </script>
 
-<div id={elementId} class="my-8" />
+<div id={elementId} class="my-8"></div>

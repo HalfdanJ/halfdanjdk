@@ -26,6 +26,8 @@
 </script>
 
 <div
+	role="button"
+	tabindex="0"
 	class="xs:h-48 xs:w-48 relative"
 	on:mouseenter={() => $xsBreakpoint && start()}
 	on:mouseleave={() => $xsBreakpoint && stop()}
@@ -33,15 +35,7 @@
 	on:inview_enter={() => !$xsBreakpoint && start()}
 	on:inview_leave={() => !$xsBreakpoint && stop()}
 >
-	<video
-		bind:this={video}
-		src={videoSrc}
-		muted
-		loop
-		playsinline
-		paused={!start}
-		poster={imageSrc}
-	/>
+	<video bind:this={video} src={videoSrc} muted loop playsinline poster={imageSrc}></video>
 	<img
 		style:opacity={hovering ? 0 : 100}
 		class="xs:h-48 xs:w-48 absolute top-0 object-cover transition-all"
