@@ -25,7 +25,7 @@ category: "installations"
 <img src={img1}>
 <img src={img2}>
 
-Between 2013 and 2019, I have been part of the visuals at [Vertigo](https://www.vertigo.dk/gloria) for the Gloria Stage on the annual Roskilde Festival. Gloria Stage is the smallest venue (capacity is about 1200) at the festival, which hosts more than 100,000 guests every year. On our stage we get all the small, weird and surprising bands; last year we hosted more than 25 bands over 4 days.
+Between 2013 and 2019, I was part of the visuals at [Vertigo](https://www.vertigo.dk/gloria) for the Gloria Stage on the annual Roskilde Festival. Gloria Stage is the smallest venue (capacity is about 1200) at the festival, which hosts more than 100,000 guests every year. On our stage we host all the small, weird and surprising bands; each year we host more than 25 bands over 4 days.
 
 The stage is our annual playground for pushing the boundaries of projection mapping, and live graphics. We use a large custom setup consisting of several Hackintoshes connected, and a combination of openFrameworks apps and class VJ software all composed in [Millumin](http://www.millumin.com/).
 

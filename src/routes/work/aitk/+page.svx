@@ -16,8 +16,8 @@ category: "cl"
 </script>
 
 
-I served as the technical lead during the initial development phase of the **AI Test Kitchen**, a project that showcased the potential of Google's Large Language Model, _LaMDA_, and the first public launch of Googles LLM model. 
-The project came together in a matter of few months, and required involvement from collaborators across the company. 
+I served as the technical lead during the initial development phase of the **AI Test Kitchen**, a project that showcased the potential of Google's Large Language Model, _LaMDA_, and the first public launch of Google's LLM model. 
+The project came together in a matter of months, and required involvement from collaborators across the company. 
 
 This collaborative project involved Google Creative Lab, Google Research, and Google AI and was officially announced at Google I/O 2022. It featured three distinct demos utilizing LaMDA, each designed to highlight different aspects of the chat model's capabilities. 
 

@@ -23,7 +23,7 @@ During my time at the [Danish Broadcasting Corporation (DR)](https://dr.dk), I w
 ## My Role
 I worked with [Johan Bichel](http://johan.cc) and Martin Bollerup to develop the DR Airlook system. We created a render farm of After Effects machines that automatically rendered video clips using custom-programmed templates, and a web interface for the users of the system to specify the variables for the templates and manage all renderings.
 
-Here are a few examples of airlooks implemented:
+Here are a few examples of implemented airlooks:
 
 DR Ramasjang (for small children)
 

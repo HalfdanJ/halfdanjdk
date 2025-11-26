@@ -19,7 +19,7 @@ category: "cl"
 
 Just a Line is an [Android](https://play.google.com/store/apps/details?id=com.arexperiments.justaline) and [iOS app](https://apps.apple.com/us/app/just-a-line-draw-in-ar/id1367242427?ls=1) that explores the early possibilities of AR on phones. It was developed when ARCore was released and an [AR Experiment](https://experiments.withgoogle.com/collection/ar).
 
-We also collaborated with Shantell Martin, letting her explore the world of 3d drawing
+We also collaborated with Shantell Martin, letting her explore the world of 3D drawing
 
 <YouTube videoId="dRj5Xfjh7Dk" />
 
